@@ -1,0 +1,2766 @@
+{
+  "head": {
+    "status": "200",
+    "data": {}
+  },
+  "body": {
+    "stores": [
+      {
+        "storeEmail": "marunouchi@apple.com",
+        "storeName": "丸の内",
+        "reservationUrl": "http://www.apple.com/jp/retail/marunouchi",
+        "makeReservationUrl": "http://www.apple.com/jp/retail/marunouchi",
+        "state": "東京都",
+        "storeImageUrl": "https://rtlimages.apple.com/cmc/dieter/store/4_3/R718.png?resize=828:*&output-format=jpg",
+        "country": "JP",
+        "city": "千代田区",
+        "storeNumber": "R718",
+        "partsAvailability": {
+          "MGMC3J/A": {
+            "storePickEligible": true,
+            "storeSearchEnabled": true,
+            "storeSelectionEnabled": false,
+            "storePickupQuote": "Apple 丸の内では現在ご利用いただけません",
+            "storePickupQuote2_0": "<button type=\"button\" class=\"rf-pickup-quote-overlay-trigger as-retailavailabilitytrigger-infobutton retail-availability-search-trigger as-buttonlink\" data-ase-overlay=\"buac-overlay\" data-ase-click=\"show\">Apple 丸の内</button>では現在ご利用いただけません",
+            "pickupSearchQuote": "選択できません",
+            "storePickupLabel": "受取日：",
+            "partNumber": "MGMC3J/A",
+            "purchaseOption": "",
+            "ctoOptions": "",
+            "storePickupLinkText": "受け取れる日を確認",
+            "storePickupProductTitle": "iPhone 12 Pro 256GB ゴールド",
+            "pickupDisplay": "unavailable",
+            "pickupType": "受け取り方法：店内"
+          },
+          "MGM83J/A": {
+            "storePickEligible": true,
+            "storeSearchEnabled": true,
+            "storeSelectionEnabled": true,
+            "storePickupQuote": "本日 Apple 丸の内",
+            "storePickupQuote2_0": "<span class=\"as-pickup-quote-availability-quote\">本日</span> <button type=\"button\" class=\"rf-pickup-quote-overlay-trigger as-retailavailabilitytrigger-infobutton retail-availability-search-trigger as-buttonlink\" data-ase-overlay=\"buac-overlay\" data-ase-click=\"show\">Apple 丸の内</button>",
+            "pickupSearchQuote": "受け取れる日 本日",
+            "storePickupLabel": "受け取り方法（ストア）：",
+            "partNumber": "MGM83J/A",
+            "purchaseOption": "",
+            "ctoOptions": "",
+            "storePickupLinkText": "受け取れる日を確認",
+            "storePickupProductTitle": "iPhone 12 Pro 128GB パシフィックブルー",
+            "pickupDisplay": "available",
+            "pickupType": "受け取り方法：店内"
+          }
+        },
+        "phoneNumber": "03-4213-0500",
+        "pickupTypeAvailabilityText": "店内 この場所で受け取りが可能です。",
+        "address": {
+          "address": "Apple 丸の内",
+          "address3": "三菱ビル",
+          "address2": "丸の内2-5-2",
+          "postalCode": "100-0005"
+        },
+        "hoursUrl": "http://www.apple.com/jp/retail/marunouchi",
+        "storeHours": {
+          "storeHoursText": "営業時間",
+          "bopisPickupDays": "日数",
+          "bopisPickupHours": "時間",
+          "hours": [
+            {
+              "storeTimings": "10:00~21:00",
+              "storeDays": "月~日:"
+            }
+          ]
+        },
+        "specialHours": {
+          "specialHoursText": "特別営業時間：",
+          "bopisPickupDays": "日数",
+          "bopisPickupHours": "時間",
+          "specialHoursData": [
+            {
+              "specialDays": "Sep 5:",
+              "specialTimings": "10:00~20:00"
+            },
+            {
+              "specialDays": "Sep 6:",
+              "specialTimings": "10:00~20:00"
+            }
+          ],
+          "viewAllSpecialHours": true
+        },
+        "storelatitude": 35.680225,
+        "storelongitude": 139.763906,
+        "storedistance": 0.9,
+        "storeDistanceWithUnit": "0.9 km",
+        "storeDistanceVoText": "100-0005からの距離：0.9 km",
+        "retailStore": {
+          "storeNumber": "R718",
+          "storeUniqueId": "R718",
+          "name": "丸の内",
+          "storeTypeKey": "1",
+          "storeSubTypeKey": "0",
+          "storeType": "APPLESTORE_DEFAULT",
+          "phoneNumber": "03-4213-0500",
+          "email": "marunouchi@apple.com",
+          "carrierCode": null,
+          "locationType": null,
+          "latitude": 35.680225,
+          "longitude": 139.763906,
+          "address": {
+            "city": "千代田区",
+            "companyName": "Apple 丸の内",
+            "countryCode": "JP",
+            "county": null,
+            "district": null,
+            "geoCode": null,
+            "label": null,
+            "languageCode": "ja-jp",
+            "mailStop": null,
+            "postalCode": "100-0005",
+            "province": null,
+            "state": "東京都",
+            "street": "丸の内2-5-2",
+            "street2": "三菱ビル",
+            "street3": null,
+            "suburb": null,
+            "type": "SHIPPING",
+            "addrSourceType": null,
+            "outsideCityFlag": null,
+            "daytimePhoneAreaCode": null,
+            "eveningPhoneAreaCode": null,
+            "daytimePhone": "03-4213-0500",
+            "fullPhoneNumber": null,
+            "eveningPhone": null,
+            "emailAddress": null,
+            "firstName": null,
+            "lastName": null,
+            "suffix": null,
+            "lastNamePhonetic": null,
+            "firstNamePhonetic": null,
+            "title": null,
+            "businessAddress": false,
+            "uuid": "f7da21e1-300f-4e18-a03a-4ac8a72ad395",
+            "mobilePhone": null,
+            "mobilePhoneAreaCode": null,
+            "cityStateZip": null,
+            "daytimePhoneSelected": false,
+            "middleName": null,
+            "residenceStatus": null,
+            "moveInDate": null,
+            "subscriberId": null,
+            "locationType": null,
+            "carrierCode": null,
+            "metadata": {},
+            "verificationState": "UN_VERIFIED",
+            "markForDeletion": false,
+            "expiration": null,
+            "fullEveningPhone": null,
+            "fullDaytimePhone": "03-4213-0500",
+            "correctionResult": null,
+            "twoLineAddress": "丸の内2-5-2, 三菱ビル,\n千代田区, 東京都, 100-0005",
+            "addressVerified": false,
+            "primaryAddress": false
+          },
+          "urlKey": null,
+          "directionsUrl": null,
+          "storeImageUrl": "http://rtlimages.apple.com/cmc/dieter/store/4_3/R718.png?resize=828:*&output-format=jpg",
+          "makeReservationUrl": "http://www.apple.com/jp/retail/marunouchi",
+          "hoursAndInfoUrl": "http://www.apple.com/jp/retail/marunouchi",
+          "storeHours": [
+            {
+              "storeDays": "月~日",
+              "voStoreDays": null,
+              "storeTimings": "10:00~21:00"
+            }
+          ],
+          "storeHolidays": [
+            {
+              "date": "Sep 5",
+              "description": "Fire Alarm",
+              "hours": "10:00~20:00",
+              "comments": null,
+              "closed": false
+            },
+            {
+              "date": "Sep 6",
+              "description": "Fire Alarm",
+              "hours": "10:00~20:00",
+              "comments": null,
+              "closed": false
+            },
+            {
+              "date": "Sep 7",
+              "description": "Fire Alarm",
+              "hours": "10:00~20:00",
+              "comments": null,
+              "closed": false
+            },
+            {
+              "date": "Sep 8",
+              "description": "Fire Alarm",
+              "hours": "10:00~20:00",
+              "comments": null,
+              "closed": false
+            },
+            {
+              "date": "Sep 9",
+              "description": "Fire Alarm",
+              "hours": "10:00~20:00",
+              "comments": null,
+              "closed": false
+            },
+            {
+              "date": "Sep 10",
+              "description": "Fire Alarm",
+              "hours": "10:00~20:00",
+              "comments": null,
+              "closed": false
+            },
+            {
+              "date": "Sep 11",
+              "description": "Fire Alarm",
+              "hours": "10:00~20:00",
+              "comments": null,
+              "closed": false
+            },
+            {
+              "date": "Sep 12",
+              "description": "Fire Alarm",
+              "hours": "10:00~20:00",
+              "comments": null,
+              "closed": false
+            }
+          ],
+          "secureStoreImageUrl": "https://rtlimages.apple.com/cmc/dieter/store/4_3/R718.png?resize=828:*&output-format=jpg",
+          "distance": 0.9,
+          "distanceUnit": "km",
+          "distanceWithUnit": "0.9 km",
+          "timezone": "Asia/Tokyo",
+          "storeIsActive": true,
+          "lastUpdated": 0,
+          "lastFetched": 1630811225436,
+          "dateStamp": "05-Sep-2021",
+          "distanceSeparator": ".",
+          "nextAvailableDate": null,
+          "storeHolidayLookAheadWindow": 7,
+          "driveDistanceWithUnit": null,
+          "driveDistanceInMeters": null,
+          "dynamicAttributes": {},
+          "storePickupMethodByType": {
+            "INSTORE": {
+              "services": [
+                "APU"
+              ],
+              "typeCoordinate": {
+                "lat": null,
+                "lon": null
+              },
+              "typeDirection": {
+                "directionByLocale": null
+              },
+              "typeMeetupLocation": {
+                "meetingLocationByLocale": null
+              },
+              "type": "INSTORE"
+            }
+          },
+          "storeTimings": null,
+          "availableNow": true
+        },
+        "storelistnumber": 1,
+        "storeListNumber": 1,
+        "pickupOptionsDetails": {
+          "whatToExpectAtPickup": "<span class=\"as-pickupmethods-intro-header\">お受け取りの際に&nbsp;</span><br />商品のお受け取りの準備が整い次第、詳しい手順をメールでお知らせします。新しいデバイスのセットアップをご希望の場合は、Appleのスペシャリストとのオンラインパーソナルセッションを無料で予約することができます。",
+          "comparePickupOptionsLink": "<a href=\"https://www.apple.com/jp/shop/shipping-pickup\" data-feature-name=\"Astro Link\" data-display-name=\"AOS: shop/shipping-pickup\" target=\"_blank\">配送と受け取りについて<br />さらに詳しく<span class=\"icon icon-after icon-chevronright\"></span><span class=\"visuallyhidden\">（新しいウインドウで開きます）</span></a>",
+          "pickupOptions": [
+            {
+              "pickupOptionTitle": "店内",
+              "pickupOptionDescription": "オンラインで注文した商品を受け取れます。セットアップについてのサポートを受けたり、アクセサリを購入することができます。検温とマスクの着用をお願いする場合があります。",
+              "index": 1
+            }
+          ]
+        },
+        "rank": 1
+      },
+      {
+        "storeEmail": "ginza@apple.com",
+        "storeName": "銀座",
+        "reservationUrl": "http://www.apple.com/jp/retail/ginza",
+        "makeReservationUrl": "http://www.apple.com/jp/retail/ginza",
+        "state": "東京都",
+        "storeImageUrl": "https://rtlimages.apple.com/cmc/dieter/store/4_3/R079.png?resize=828:*&output-format=jpg",
+        "country": "JP",
+        "city": "中央区",
+        "storeNumber": "R079",
+        "partsAvailability": {
+          "MGMC3J/A": {
+            "storePickEligible": true,
+            "storeSearchEnabled": true,
+            "storeSelectionEnabled": false,
+            "storePickupQuote": "Apple 銀座では現在ご利用いただけません",
+            "storePickupQuote2_0": "<button type=\"button\" class=\"rf-pickup-quote-overlay-trigger as-retailavailabilitytrigger-infobutton retail-availability-search-trigger as-buttonlink\" data-ase-overlay=\"buac-overlay\" data-ase-click=\"show\">Apple 銀座</button>では現在ご利用いただけません",
+            "pickupSearchQuote": "選択できません",
+            "storePickupLabel": "受取日：",
+            "partNumber": "MGMC3J/A",
+            "purchaseOption": "",
+            "ctoOptions": "",
+            "storePickupLinkText": "受け取れる日を確認",
+            "storePickupProductTitle": "iPhone 12 Pro 256GB ゴールド",
+            "pickupDisplay": "unavailable",
+            "pickupType": "受け取り方法：店内"
+          },
+          "MGM83J/A": {
+            "storePickEligible": true,
+            "storeSearchEnabled": true,
+            "storeSelectionEnabled": true,
+            "storePickupQuote": "本日 Apple 銀座",
+            "storePickupQuote2_0": "<span class=\"as-pickup-quote-availability-quote\">本日</span> <button type=\"button\" class=\"rf-pickup-quote-overlay-trigger as-retailavailabilitytrigger-infobutton retail-availability-search-trigger as-buttonlink\" data-ase-overlay=\"buac-overlay\" data-ase-click=\"show\">Apple 銀座</button>",
+            "pickupSearchQuote": "受け取れる日 本日",
+            "storePickupLabel": "受け取り方法（ストア）：",
+            "partNumber": "MGM83J/A",
+            "purchaseOption": "",
+            "ctoOptions": "",
+            "storePickupLinkText": "受け取れる日を確認",
+            "storePickupProductTitle": "iPhone 12 Pro 128GB パシフィックブルー",
+            "pickupDisplay": "available",
+            "pickupType": "受け取り方法：店内"
+          }
+        },
+        "phoneNumber": "03-5159-8200",
+        "pickupTypeAvailabilityText": "店内 この場所で受け取りが可能です。",
+        "address": {
+          "address": "Apple 銀座",
+          "address3": "サヱグサビル本館",
+          "address2": "銀座3-5-12",
+          "postalCode": "104-0061"
+        },
+        "hoursUrl": "http://www.apple.com/jp/retail/ginza",
+        "storeHours": {
+          "storeHoursText": "営業時間",
+          "bopisPickupDays": "日数",
+          "bopisPickupHours": "時間",
+          "hours": [
+            {
+              "storeTimings": "10:00~21:00",
+              "storeDays": "月~日:"
+            }
+          ]
+        },
+        "specialHours": {
+          "specialHoursText": "特別営業時間：",
+          "bopisPickupDays": "日数",
+          "bopisPickupHours": "時間",
+          "specialHoursData": [
+            {
+              "specialDays": "Sep 5:",
+              "specialTimings": "10:00~20:00"
+            },
+            {
+              "specialDays": "Sep 6:",
+              "specialTimings": "10:00~20:00"
+            }
+          ],
+          "viewAllSpecialHours": true
+        },
+        "storelatitude": 35.67232,
+        "storelongitude": 139.76572,
+        "storedistance": 1.68,
+        "storeDistanceWithUnit": "1.68 km",
+        "storeDistanceVoText": "104-0061からの距離：1.68 km",
+        "retailStore": {
+          "storeNumber": "R079",
+          "storeUniqueId": "R079",
+          "name": "銀座",
+          "storeTypeKey": "1",
+          "storeSubTypeKey": "0",
+          "storeType": "APPLESTORE_DEFAULT",
+          "phoneNumber": "03-5159-8200",
+          "email": "ginza@apple.com",
+          "carrierCode": null,
+          "locationType": null,
+          "latitude": 35.67232,
+          "longitude": 139.76572,
+          "address": {
+            "city": "中央区",
+            "companyName": "Apple 銀座",
+            "countryCode": "JP",
+            "county": null,
+            "district": null,
+            "geoCode": null,
+            "label": null,
+            "languageCode": "ja-jp",
+            "mailStop": null,
+            "postalCode": "104-0061",
+            "province": null,
+            "state": "東京都",
+            "street": "銀座3-5-12",
+            "street2": "サヱグサビル本館",
+            "street3": null,
+            "suburb": null,
+            "type": "SHIPPING",
+            "addrSourceType": null,
+            "outsideCityFlag": null,
+            "daytimePhoneAreaCode": null,
+            "eveningPhoneAreaCode": null,
+            "daytimePhone": "03-5159-8200",
+            "fullPhoneNumber": null,
+            "eveningPhone": null,
+            "emailAddress": null,
+            "firstName": null,
+            "lastName": null,
+            "suffix": null,
+            "lastNamePhonetic": null,
+            "firstNamePhonetic": null,
+            "title": null,
+            "businessAddress": false,
+            "uuid": "59d3d654-942b-4403-8aa3-f7078c2aaa48",
+            "mobilePhone": null,
+            "mobilePhoneAreaCode": null,
+            "cityStateZip": null,
+            "daytimePhoneSelected": false,
+            "middleName": null,
+            "residenceStatus": null,
+            "moveInDate": null,
+            "subscriberId": null,
+            "locationType": null,
+            "carrierCode": null,
+            "metadata": {},
+            "verificationState": "UN_VERIFIED",
+            "markForDeletion": false,
+            "expiration": null,
+            "fullEveningPhone": null,
+            "fullDaytimePhone": "03-5159-8200",
+            "correctionResult": null,
+            "twoLineAddress": "銀座3-5-12, サヱグサビル本館,\n中央区, 東京都, 104-0061",
+            "addressVerified": false,
+            "primaryAddress": false
+          },
+          "urlKey": null,
+          "directionsUrl": null,
+          "storeImageUrl": "http://rtlimages.apple.com/cmc/dieter/store/4_3/R079.png?resize=828:*&output-format=jpg",
+          "makeReservationUrl": "http://www.apple.com/jp/retail/ginza",
+          "hoursAndInfoUrl": "http://www.apple.com/jp/retail/ginza",
+          "storeHours": [
+            {
+              "storeDays": "月~日",
+              "voStoreDays": null,
+              "storeTimings": "10:00~21:00"
+            }
+          ],
+          "storeHolidays": [
+            {
+              "date": "Sep 5",
+              "description": "Fire Alarm",
+              "hours": "10:00~20:00",
+              "comments": null,
+              "closed": false
+            },
+            {
+              "date": "Sep 6",
+              "description": "Fire Alarm",
+              "hours": "10:00~20:00",
+              "comments": null,
+              "closed": false
+            },
+            {
+              "date": "Sep 7",
+              "description": "Fire Alarm",
+              "hours": "10:00~20:00",
+              "comments": null,
+              "closed": false
+            },
+            {
+              "date": "Sep 8",
+              "description": "Fire Alarm",
+              "hours": "10:00~20:00",
+              "comments": null,
+              "closed": false
+            },
+            {
+              "date": "Sep 9",
+              "description": "Fire Alarm",
+              "hours": "10:00~20:00",
+              "comments": null,
+              "closed": false
+            },
+            {
+              "date": "Sep 10",
+              "description": "Fire Alarm",
+              "hours": "10:00~20:00",
+              "comments": null,
+              "closed": false
+            },
+            {
+              "date": "Sep 11",
+              "description": "Fire Alarm",
+              "hours": "10:00~20:00",
+              "comments": null,
+              "closed": false
+            },
+            {
+              "date": "Sep 12",
+              "description": "Fire Alarm",
+              "hours": "10:00~20:00",
+              "comments": null,
+              "closed": false
+            }
+          ],
+          "secureStoreImageUrl": "https://rtlimages.apple.com/cmc/dieter/store/4_3/R079.png?resize=828:*&output-format=jpg",
+          "distance": 1.68,
+          "distanceUnit": "km",
+          "distanceWithUnit": "1.68 km",
+          "timezone": "Asia/Tokyo",
+          "storeIsActive": true,
+          "lastUpdated": 0,
+          "lastFetched": 1630811225439,
+          "dateStamp": "05-Sep-2021",
+          "distanceSeparator": ".",
+          "nextAvailableDate": null,
+          "storeHolidayLookAheadWindow": 7,
+          "driveDistanceWithUnit": null,
+          "driveDistanceInMeters": null,
+          "dynamicAttributes": {},
+          "storePickupMethodByType": {
+            "INSTORE": {
+              "services": [
+                "APU"
+              ],
+              "typeCoordinate": {
+                "lat": null,
+                "lon": null
+              },
+              "typeDirection": {
+                "directionByLocale": null
+              },
+              "typeMeetupLocation": {
+                "meetingLocationByLocale": null
+              },
+              "type": "INSTORE"
+            }
+          },
+          "storeTimings": null,
+          "availableNow": true
+        },
+        "storelistnumber": 2,
+        "storeListNumber": 2,
+        "pickupOptionsDetails": {
+          "whatToExpectAtPickup": "<span class=\"as-pickupmethods-intro-header\">お受け取りの際に&nbsp;</span><br />商品のお受け取りの準備が整い次第、詳しい手順をメールでお知らせします。新しいデバイスのセットアップをご希望の場合は、Appleのスペシャリストとのオンラインパーソナルセッションを無料で予約することができます。",
+          "comparePickupOptionsLink": "<a href=\"https://www.apple.com/jp/shop/shipping-pickup\" data-feature-name=\"Astro Link\" data-display-name=\"AOS: shop/shipping-pickup\" target=\"_blank\">配送と受け取りについて<br />さらに詳しく<span class=\"icon icon-after icon-chevronright\"></span><span class=\"visuallyhidden\">（新しいウインドウで開きます）</span></a>",
+          "pickupOptions": [
+            {
+              "pickupOptionTitle": "店内",
+              "pickupOptionDescription": "オンラインで注文した商品を受け取れます。セットアップについてのサポートを受けたり、アクセサリを購入することができます。検温とマスクの着用をお願いする場合があります。",
+              "index": 1
+            }
+          ]
+        },
+        "rank": 2
+      },
+      {
+        "storeEmail": "omotesando@apple.com",
+        "storeName": "表参道",
+        "reservationUrl": "http://www.apple.com/jp/retail/omotesando",
+        "makeReservationUrl": "http://www.apple.com/jp/retail/omotesando",
+        "state": "東京都",
+        "storeImageUrl": "https://rtlimages.apple.com/cmc/dieter/store/4_3/R224.png?resize=828:*&output-format=jpg",
+        "country": "JP",
+        "city": "渋谷区",
+        "storeNumber": "R224",
+        "partsAvailability": {
+          "MGMC3J/A": {
+            "storePickEligible": true,
+            "storeSearchEnabled": true,
+            "storeSelectionEnabled": true,
+            "storePickupQuote": "本日 Apple 表参道",
+            "storePickupQuote2_0": "<span class=\"as-pickup-quote-availability-quote\">本日</span> <button type=\"button\" class=\"rf-pickup-quote-overlay-trigger as-retailavailabilitytrigger-infobutton retail-availability-search-trigger as-buttonlink\" data-ase-overlay=\"buac-overlay\" data-ase-click=\"show\">Apple 表参道</button>",
+            "pickupSearchQuote": "受け取れる日 本日",
+            "storePickupLabel": "受け取り方法（ストア）：",
+            "partNumber": "MGMC3J/A",
+            "purchaseOption": "",
+            "ctoOptions": "",
+            "storePickupLinkText": "受け取れる日を確認",
+            "storePickupProductTitle": "iPhone 12 Pro 256GB ゴールド",
+            "pickupDisplay": "available",
+            "pickupType": "受け取り方法：店内"
+          },
+          "MGM83J/A": {
+            "storePickEligible": true,
+            "storeSearchEnabled": true,
+            "storeSelectionEnabled": true,
+            "storePickupQuote": "本日 Apple 表参道",
+            "storePickupQuote2_0": "<span class=\"as-pickup-quote-availability-quote\">本日</span> <button type=\"button\" class=\"rf-pickup-quote-overlay-trigger as-retailavailabilitytrigger-infobutton retail-availability-search-trigger as-buttonlink\" data-ase-overlay=\"buac-overlay\" data-ase-click=\"show\">Apple 表参道</button>",
+            "pickupSearchQuote": "受け取れる日 本日",
+            "storePickupLabel": "受け取り方法（ストア）：",
+            "partNumber": "MGM83J/A",
+            "purchaseOption": "",
+            "ctoOptions": "",
+            "storePickupLinkText": "受け取れる日を確認",
+            "storePickupProductTitle": "iPhone 12 Pro 128GB パシフィックブルー",
+            "pickupDisplay": "available",
+            "pickupType": "受け取り方法：店内"
+          }
+        },
+        "phoneNumber": "03-6757-4400",
+        "pickupTypeAvailabilityText": "店内 この場所で受け取りが可能です。",
+        "address": {
+          "address": "Apple 表参道",
+          "address3": null,
+          "address2": "神宮前4-2-13",
+          "postalCode": "150-0001"
+        },
+        "hoursUrl": "http://www.apple.com/jp/retail/omotesando",
+        "storeHours": {
+          "storeHoursText": "営業時間",
+          "bopisPickupDays": "日数",
+          "bopisPickupHours": "時間",
+          "hours": [
+            {
+              "storeTimings": "10:00~21:00",
+              "storeDays": "月~日:"
+            }
+          ]
+        },
+        "specialHours": {
+          "specialHoursText": "特別営業時間：",
+          "bopisPickupDays": "日数",
+          "bopisPickupHours": "時間",
+          "specialHoursData": [
+            {
+              "specialDays": "Sep 5:",
+              "specialTimings": "10:00~20:00"
+            },
+            {
+              "specialDays": "Sep 6:",
+              "specialTimings": "10:00~20:00"
+            }
+          ],
+          "viewAllSpecialHours": true
+        },
+        "storelatitude": 35.666129,
+        "storelongitude": 139.710932,
+        "storedistance": 4.61,
+        "storeDistanceWithUnit": "4.61 km",
+        "storeDistanceVoText": "150-0001からの距離：4.61 km",
+        "retailStore": {
+          "storeNumber": "R224",
+          "storeUniqueId": "R224",
+          "name": "表参道",
+          "storeTypeKey": "1",
+          "storeSubTypeKey": "0",
+          "storeType": "APPLESTORE_DEFAULT",
+          "phoneNumber": "03-6757-4400",
+          "email": "omotesando@apple.com",
+          "carrierCode": null,
+          "locationType": null,
+          "latitude": 35.666129,
+          "longitude": 139.710932,
+          "address": {
+            "city": "渋谷区",
+            "companyName": "Apple 表参道",
+            "countryCode": "JP",
+            "county": null,
+            "district": null,
+            "geoCode": null,
+            "label": null,
+            "languageCode": "ja-jp",
+            "mailStop": null,
+            "postalCode": "150-0001",
+            "province": null,
+            "state": "東京都",
+            "street": "神宮前4-2-13",
+            "street2": null,
+            "street3": null,
+            "suburb": null,
+            "type": "SHIPPING",
+            "addrSourceType": null,
+            "outsideCityFlag": null,
+            "daytimePhoneAreaCode": null,
+            "eveningPhoneAreaCode": null,
+            "daytimePhone": "03-6757-4400",
+            "fullPhoneNumber": null,
+            "eveningPhone": null,
+            "emailAddress": null,
+            "firstName": null,
+            "lastName": null,
+            "suffix": null,
+            "lastNamePhonetic": null,
+            "firstNamePhonetic": null,
+            "title": null,
+            "businessAddress": false,
+            "uuid": "62e31eb1-f176-4757-ba4b-5ed3c63b48cd",
+            "mobilePhone": null,
+            "mobilePhoneAreaCode": null,
+            "cityStateZip": null,
+            "daytimePhoneSelected": false,
+            "middleName": null,
+            "residenceStatus": null,
+            "moveInDate": null,
+            "subscriberId": null,
+            "locationType": null,
+            "carrierCode": null,
+            "metadata": {},
+            "verificationState": "UN_VERIFIED",
+            "markForDeletion": false,
+            "expiration": null,
+            "fullEveningPhone": null,
+            "fullDaytimePhone": "03-6757-4400",
+            "correctionResult": null,
+            "twoLineAddress": "神宮前4-2-13,\n渋谷区, 東京都, 150-0001",
+            "addressVerified": false,
+            "primaryAddress": false
+          },
+          "urlKey": null,
+          "directionsUrl": null,
+          "storeImageUrl": "http://rtlimages.apple.com/cmc/dieter/store/4_3/R224.png?resize=828:*&output-format=jpg",
+          "makeReservationUrl": "http://www.apple.com/jp/retail/omotesando",
+          "hoursAndInfoUrl": "http://www.apple.com/jp/retail/omotesando",
+          "storeHours": [
+            {
+              "storeDays": "月~日",
+              "voStoreDays": null,
+              "storeTimings": "10:00~21:00"
+            }
+          ],
+          "storeHolidays": [
+            {
+              "date": "Sep 5",
+              "description": "Fire Alarm",
+              "hours": "10:00~20:00",
+              "comments": null,
+              "closed": false
+            },
+            {
+              "date": "Sep 6",
+              "description": "Fire Alarm",
+              "hours": "10:00~20:00",
+              "comments": null,
+              "closed": false
+            },
+            {
+              "date": "Sep 7",
+              "description": "Fire Alarm",
+              "hours": "10:00~20:00",
+              "comments": null,
+              "closed": false
+            },
+            {
+              "date": "Sep 8",
+              "description": "Fire Alarm",
+              "hours": "10:00~20:00",
+              "comments": null,
+              "closed": false
+            },
+            {
+              "date": "Sep 9",
+              "description": "Fire Alarm",
+              "hours": "10:00~20:00",
+              "comments": null,
+              "closed": false
+            },
+            {
+              "date": "Sep 10",
+              "description": "Fire Alarm",
+              "hours": "10:00~20:00",
+              "comments": null,
+              "closed": false
+            },
+            {
+              "date": "Sep 11",
+              "description": "Fire Alarm",
+              "hours": "10:00~20:00",
+              "comments": null,
+              "closed": false
+            },
+            {
+              "date": "Sep 12",
+              "description": "Fire Alarm",
+              "hours": "10:00~20:00",
+              "comments": null,
+              "closed": false
+            }
+          ],
+          "secureStoreImageUrl": "https://rtlimages.apple.com/cmc/dieter/store/4_3/R224.png?resize=828:*&output-format=jpg",
+          "distance": 4.61,
+          "distanceUnit": "km",
+          "distanceWithUnit": "4.61 km",
+          "timezone": "Asia/Tokyo",
+          "storeIsActive": true,
+          "lastUpdated": 0,
+          "lastFetched": 1630811225440,
+          "dateStamp": "05-Sep-2021",
+          "distanceSeparator": ".",
+          "nextAvailableDate": null,
+          "storeHolidayLookAheadWindow": 7,
+          "driveDistanceWithUnit": null,
+          "driveDistanceInMeters": null,
+          "dynamicAttributes": {},
+          "storePickupMethodByType": {
+            "INSTORE": {
+              "services": [
+                "APU"
+              ],
+              "typeCoordinate": {
+                "lat": null,
+                "lon": null
+              },
+              "typeDirection": {
+                "directionByLocale": null
+              },
+              "typeMeetupLocation": {
+                "meetingLocationByLocale": null
+              },
+              "type": "INSTORE"
+            }
+          },
+          "storeTimings": null,
+          "availableNow": true
+        },
+        "storelistnumber": 3,
+        "storeListNumber": 3,
+        "pickupOptionsDetails": {
+          "whatToExpectAtPickup": "<span class=\"as-pickupmethods-intro-header\">お受け取りの際に&nbsp;</span><br />商品のお受け取りの準備が整い次第、詳しい手順をメールでお知らせします。新しいデバイスのセットアップをご希望の場合は、Appleのスペシャリストとのオンラインパーソナルセッションを無料で予約することができます。",
+          "comparePickupOptionsLink": "<a href=\"https://www.apple.com/jp/shop/shipping-pickup\" data-feature-name=\"Astro Link\" data-display-name=\"AOS: shop/shipping-pickup\" target=\"_blank\">配送と受け取りについて<br />さらに詳しく<span class=\"icon icon-after icon-chevronright\"></span><span class=\"visuallyhidden\">（新しいウインドウで開きます）</span></a>",
+          "pickupOptions": [
+            {
+              "pickupOptionTitle": "店内",
+              "pickupOptionDescription": "オンラインで注文した商品を受け取れます。セットアップについてのサポートを受けたり、アクセサリを購入することができます。検温とマスクの着用をお願いする場合があります。",
+              "index": 1
+            }
+          ]
+        },
+        "rank": 3,
+        "pickupEncodedUpperDateString": "20210905"
+      },
+      {
+        "storeEmail": "shinjuku@apple.com",
+        "storeName": "新宿",
+        "reservationUrl": "http://www.apple.com/jp/retail/shinjuku",
+        "makeReservationUrl": "http://www.apple.com/jp/retail/shinjuku",
+        "state": "東京都",
+        "storeImageUrl": "https://rtlimages.apple.com/cmc/dieter/store/4_3/R128.png?resize=828:*&output-format=jpg",
+        "country": "JP",
+        "city": "新宿区",
+        "storeNumber": "R128",
+        "partsAvailability": {
+          "MGMC3J/A": {
+            "storePickEligible": true,
+            "storeSearchEnabled": true,
+            "storeSelectionEnabled": false,
+            "storePickupQuote": "Apple 新宿では現在ご利用いただけません",
+            "storePickupQuote2_0": "<button type=\"button\" class=\"rf-pickup-quote-overlay-trigger as-retailavailabilitytrigger-infobutton retail-availability-search-trigger as-buttonlink\" data-ase-overlay=\"buac-overlay\" data-ase-click=\"show\">Apple 新宿</button>では現在ご利用いただけません",
+            "pickupSearchQuote": "選択できません",
+            "storePickupLabel": "受取日：",
+            "partNumber": "MGMC3J/A",
+            "purchaseOption": "",
+            "ctoOptions": "",
+            "storePickupLinkText": "受け取れる日を確認",
+            "storePickupProductTitle": "iPhone 12 Pro 256GB ゴールド",
+            "pickupDisplay": "unavailable",
+            "pickupType": "受け取り方法：店内"
+          },
+          "MGM83J/A": {
+            "storePickEligible": true,
+            "storeSearchEnabled": true,
+            "storeSelectionEnabled": true,
+            "storePickupQuote": "本日 Apple 新宿",
+            "storePickupQuote2_0": "<span class=\"as-pickup-quote-availability-quote\">本日</span> <button type=\"button\" class=\"rf-pickup-quote-overlay-trigger as-retailavailabilitytrigger-infobutton retail-availability-search-trigger as-buttonlink\" data-ase-overlay=\"buac-overlay\" data-ase-click=\"show\">Apple 新宿</button>",
+            "pickupSearchQuote": "受け取れる日 本日",
+            "storePickupLabel": "受け取り方法（ストア）：",
+            "partNumber": "MGM83J/A",
+            "purchaseOption": "",
+            "ctoOptions": "",
+            "storePickupLinkText": "受け取れる日を確認",
+            "storePickupProductTitle": "iPhone 12 Pro 128GB パシフィックブルー",
+            "pickupDisplay": "available",
+            "pickupType": "受け取り方法：店内"
+          }
+        },
+        "phoneNumber": "03-5656-1800",
+        "pickupTypeAvailabilityText": "店内 この場所で受け取りが可能です。",
+        "address": {
+          "address": "Apple 新宿",
+          "address3": "新宿マルイ本館",
+          "address2": "新宿3−30−13",
+          "postalCode": "160-0022"
+        },
+        "hoursUrl": "http://www.apple.com/jp/retail/shinjuku",
+        "storeHours": {
+          "storeHoursText": "営業時間",
+          "bopisPickupDays": "日数",
+          "bopisPickupHours": "時間",
+          "hours": [
+            {
+              "storeTimings": "10:00~21:00",
+              "storeDays": "月~日:"
+            }
+          ]
+        },
+        "specialHours": {
+          "specialHoursText": "特別営業時間：",
+          "bopisPickupDays": "日数",
+          "bopisPickupHours": "時間",
+          "specialHoursData": [
+            {
+              "specialDays": "Sep 5:",
+              "specialTimings": "10:00~20:00"
+            },
+            {
+              "specialDays": "Sep 6:",
+              "specialTimings": "10:00~20:00"
+            }
+          ],
+          "viewAllSpecialHours": true
+        },
+        "storelatitude": 35.691,
+        "storelongitude": 139.7041,
+        "storedistance": 4.75,
+        "storeDistanceWithUnit": "4.75 km",
+        "storeDistanceVoText": "160-0022からの距離：4.75 km",
+        "retailStore": {
+          "storeNumber": "R128",
+          "storeUniqueId": "R128",
+          "name": "新宿",
+          "storeTypeKey": "1",
+          "storeSubTypeKey": "0",
+          "storeType": "APPLESTORE_DEFAULT",
+          "phoneNumber": "03-5656-1800",
+          "email": "shinjuku@apple.com",
+          "carrierCode": null,
+          "locationType": null,
+          "latitude": 35.691,
+          "longitude": 139.7041,
+          "address": {
+            "city": "新宿区",
+            "companyName": "Apple 新宿",
+            "countryCode": "JP",
+            "county": null,
+            "district": null,
+            "geoCode": null,
+            "label": null,
+            "languageCode": "ja-jp",
+            "mailStop": null,
+            "postalCode": "160-0022",
+            "province": null,
+            "state": "東京都",
+            "street": "新宿3−30−13",
+            "street2": "新宿マルイ本館",
+            "street3": null,
+            "suburb": null,
+            "type": "SHIPPING",
+            "addrSourceType": null,
+            "outsideCityFlag": null,
+            "daytimePhoneAreaCode": null,
+            "eveningPhoneAreaCode": null,
+            "daytimePhone": "03-5656-1800",
+            "fullPhoneNumber": null,
+            "eveningPhone": null,
+            "emailAddress": null,
+            "firstName": null,
+            "lastName": null,
+            "suffix": null,
+            "lastNamePhonetic": null,
+            "firstNamePhonetic": null,
+            "title": null,
+            "businessAddress": false,
+            "uuid": "4fc731a9-f42c-4c01-9386-6abaaf5ef743",
+            "mobilePhone": null,
+            "mobilePhoneAreaCode": null,
+            "cityStateZip": null,
+            "daytimePhoneSelected": false,
+            "middleName": null,
+            "residenceStatus": null,
+            "moveInDate": null,
+            "subscriberId": null,
+            "locationType": null,
+            "carrierCode": null,
+            "metadata": {},
+            "verificationState": "UN_VERIFIED",
+            "markForDeletion": false,
+            "expiration": null,
+            "fullEveningPhone": null,
+            "fullDaytimePhone": "03-5656-1800",
+            "correctionResult": null,
+            "twoLineAddress": "新宿3−30−13, 新宿マルイ本館,\n新宿区, 東京都, 160-0022",
+            "addressVerified": false,
+            "primaryAddress": false
+          },
+          "urlKey": null,
+          "directionsUrl": null,
+          "storeImageUrl": "http://rtlimages.apple.com/cmc/dieter/store/4_3/R128.png?resize=828:*&output-format=jpg",
+          "makeReservationUrl": "http://www.apple.com/jp/retail/shinjuku",
+          "hoursAndInfoUrl": "http://www.apple.com/jp/retail/shinjuku",
+          "storeHours": [
+            {
+              "storeDays": "月~日",
+              "voStoreDays": null,
+              "storeTimings": "10:00~21:00"
+            }
+          ],
+          "storeHolidays": [
+            {
+              "date": "Sep 5",
+              "description": "Fire Alarm",
+              "hours": "10:00~20:00",
+              "comments": null,
+              "closed": false
+            },
+            {
+              "date": "Sep 6",
+              "description": "Fire Alarm",
+              "hours": "10:00~20:00",
+              "comments": null,
+              "closed": false
+            },
+            {
+              "date": "Sep 7",
+              "description": "Fire Alarm",
+              "hours": "10:00~20:00",
+              "comments": null,
+              "closed": false
+            },
+            {
+              "date": "Sep 8",
+              "description": "Fire Alarm",
+              "hours": "10:00~20:00",
+              "comments": null,
+              "closed": false
+            },
+            {
+              "date": "Sep 9",
+              "description": "Fire Alarm",
+              "hours": "10:00~20:00",
+              "comments": null,
+              "closed": false
+            },
+            {
+              "date": "Sep 10",
+              "description": "Fire Alarm",
+              "hours": "10:00~20:00",
+              "comments": null,
+              "closed": false
+            },
+            {
+              "date": "Sep 11",
+              "description": "Fire Alarm",
+              "hours": "10:00~20:00",
+              "comments": null,
+              "closed": false
+            },
+            {
+              "date": "Sep 12",
+              "description": "Fire Alarm",
+              "hours": "10:00~20:00",
+              "comments": null,
+              "closed": false
+            }
+          ],
+          "secureStoreImageUrl": "https://rtlimages.apple.com/cmc/dieter/store/4_3/R128.png?resize=828:*&output-format=jpg",
+          "distance": 4.75,
+          "distanceUnit": "km",
+          "distanceWithUnit": "4.75 km",
+          "timezone": "Asia/Tokyo",
+          "storeIsActive": true,
+          "lastUpdated": 0,
+          "lastFetched": 1630811225441,
+          "dateStamp": "05-Sep-2021",
+          "distanceSeparator": ".",
+          "nextAvailableDate": null,
+          "storeHolidayLookAheadWindow": 7,
+          "driveDistanceWithUnit": null,
+          "driveDistanceInMeters": null,
+          "dynamicAttributes": {},
+          "storePickupMethodByType": {
+            "INSTORE": {
+              "services": [
+                "APU"
+              ],
+              "typeCoordinate": {
+                "lat": null,
+                "lon": null
+              },
+              "typeDirection": {
+                "directionByLocale": null
+              },
+              "typeMeetupLocation": {
+                "meetingLocationByLocale": null
+              },
+              "type": "INSTORE"
+            }
+          },
+          "storeTimings": null,
+          "availableNow": true
+        },
+        "storelistnumber": 4,
+        "storeListNumber": 4,
+        "pickupOptionsDetails": {
+          "whatToExpectAtPickup": "<span class=\"as-pickupmethods-intro-header\">お受け取りの際に&nbsp;</span><br />商品のお受け取りの準備が整い次第、詳しい手順をメールでお知らせします。新しいデバイスのセットアップをご希望の場合は、Appleのスペシャリストとのオンラインパーソナルセッションを無料で予約することができます。",
+          "comparePickupOptionsLink": "<a href=\"https://www.apple.com/jp/shop/shipping-pickup\" data-feature-name=\"Astro Link\" data-display-name=\"AOS: shop/shipping-pickup\" target=\"_blank\">配送と受け取りについて<br />さらに詳しく<span class=\"icon icon-after icon-chevronright\"></span><span class=\"visuallyhidden\">（新しいウインドウで開きます）</span></a>",
+          "pickupOptions": [
+            {
+              "pickupOptionTitle": "店内",
+              "pickupOptionDescription": "オンラインで注文した商品を受け取れます。セットアップについてのサポートを受けたり、アクセサリを購入することができます。検温とマスクの着用をお願いする場合があります。",
+              "index": 1
+            }
+          ]
+        },
+        "rank": 4
+      },
+      {
+        "storeEmail": "shibuya@apple.com",
+        "storeName": "渋谷",
+        "reservationUrl": "http://www.apple.com/jp/retail/shibuya",
+        "makeReservationUrl": "http://www.apple.com/jp/retail/shibuya",
+        "state": "東京都",
+        "storeImageUrl": "https://rtlimages.apple.com/cmc/dieter/store/4_3/R119.png?resize=828:*&output-format=jpg",
+        "country": "JP",
+        "city": "渋谷区",
+        "storeNumber": "R119",
+        "partsAvailability": {
+          "MGMC3J/A": {
+            "storePickEligible": true,
+            "storeSearchEnabled": true,
+            "storeSelectionEnabled": true,
+            "storePickupQuote": "本日 Apple 渋谷",
+            "storePickupQuote2_0": "<span class=\"as-pickup-quote-availability-quote\">本日</span> <button type=\"button\" class=\"rf-pickup-quote-overlay-trigger as-retailavailabilitytrigger-infobutton retail-availability-search-trigger as-buttonlink\" data-ase-overlay=\"buac-overlay\" data-ase-click=\"show\">Apple 渋谷</button>",
+            "pickupSearchQuote": "受け取れる日 本日",
+            "storePickupLabel": "受け取り方法（ストア）：",
+            "partNumber": "MGMC3J/A",
+            "purchaseOption": "",
+            "ctoOptions": "",
+            "storePickupLinkText": "受け取れる日を確認",
+            "storePickupProductTitle": "iPhone 12 Pro 256GB ゴールド",
+            "pickupDisplay": "available",
+            "pickupType": "受け取り方法：店内"
+          },
+          "MGM83J/A": {
+            "storePickEligible": true,
+            "storeSearchEnabled": true,
+            "storeSelectionEnabled": true,
+            "storePickupQuote": "本日 Apple 渋谷",
+            "storePickupQuote2_0": "<span class=\"as-pickup-quote-availability-quote\">本日</span> <button type=\"button\" class=\"rf-pickup-quote-overlay-trigger as-retailavailabilitytrigger-infobutton retail-availability-search-trigger as-buttonlink\" data-ase-overlay=\"buac-overlay\" data-ase-click=\"show\">Apple 渋谷</button>",
+            "pickupSearchQuote": "受け取れる日 本日",
+            "storePickupLabel": "受け取り方法（ストア）：",
+            "partNumber": "MGM83J/A",
+            "purchaseOption": "",
+            "ctoOptions": "",
+            "storePickupLinkText": "受け取れる日を確認",
+            "storePickupProductTitle": "iPhone 12 Pro 128GB パシフィックブルー",
+            "pickupDisplay": "available",
+            "pickupType": "受け取り方法：店内"
+          }
+        },
+        "phoneNumber": "03-6670-1800",
+        "pickupTypeAvailabilityText": "店内 この場所で受け取りが可能です。",
+        "address": {
+          "address": "Apple 渋谷",
+          "address3": "公園通りビル",
+          "address2": "神南1-20-9 ",
+          "postalCode": "150-0041"
+        },
+        "hoursUrl": "http://www.apple.com/jp/retail/shibuya",
+        "storeHours": {
+          "storeHoursText": "営業時間",
+          "bopisPickupDays": "日数",
+          "bopisPickupHours": "時間",
+          "hours": [
+            {
+              "storeTimings": "10:00~21:00",
+              "storeDays": "月~日:"
+            }
+          ]
+        },
+        "specialHours": {
+          "specialHoursText": "特別営業時間：",
+          "bopisPickupDays": "日数",
+          "bopisPickupHours": "時間",
+          "specialHoursData": [
+            {
+              "specialDays": "Sep 5:",
+              "specialTimings": "10:00~20:00"
+            },
+            {
+              "specialDays": "Sep 6:",
+              "specialTimings": "10:00~20:00"
+            }
+          ],
+          "viewAllSpecialHours": true
+        },
+        "storelatitude": 35.66196,
+        "storelongitude": 139.69978,
+        "storedistance": 5.72,
+        "storeDistanceWithUnit": "5.72 km",
+        "storeDistanceVoText": "150-0041からの距離：5.72 km",
+        "retailStore": {
+          "storeNumber": "R119",
+          "storeUniqueId": "R119",
+          "name": "渋谷",
+          "storeTypeKey": "1",
+          "storeSubTypeKey": "0",
+          "storeType": "APPLESTORE_DEFAULT",
+          "phoneNumber": "03-6670-1800",
+          "email": "shibuya@apple.com",
+          "carrierCode": null,
+          "locationType": null,
+          "latitude": 35.66196,
+          "longitude": 139.69978,
+          "address": {
+            "city": "渋谷区",
+            "companyName": "Apple 渋谷",
+            "countryCode": "JP",
+            "county": null,
+            "district": null,
+            "geoCode": null,
+            "label": null,
+            "languageCode": "ja-jp",
+            "mailStop": null,
+            "postalCode": "150-0041",
+            "province": null,
+            "state": "東京都",
+            "street": "神南1-20-9 ",
+            "street2": "公園通りビル",
+            "street3": null,
+            "suburb": null,
+            "type": "SHIPPING",
+            "addrSourceType": null,
+            "outsideCityFlag": null,
+            "daytimePhoneAreaCode": null,
+            "eveningPhoneAreaCode": null,
+            "daytimePhone": "03-6670-1800",
+            "fullPhoneNumber": null,
+            "eveningPhone": null,
+            "emailAddress": null,
+            "firstName": null,
+            "lastName": null,
+            "suffix": null,
+            "lastNamePhonetic": null,
+            "firstNamePhonetic": null,
+            "title": null,
+            "businessAddress": false,
+            "uuid": "132386d7-aa35-4fa3-b796-c015def90422",
+            "mobilePhone": null,
+            "mobilePhoneAreaCode": null,
+            "cityStateZip": null,
+            "daytimePhoneSelected": false,
+            "middleName": null,
+            "residenceStatus": null,
+            "moveInDate": null,
+            "subscriberId": null,
+            "locationType": null,
+            "carrierCode": null,
+            "metadata": {},
+            "verificationState": "UN_VERIFIED",
+            "markForDeletion": false,
+            "expiration": null,
+            "fullEveningPhone": null,
+            "fullDaytimePhone": "03-6670-1800",
+            "correctionResult": null,
+            "twoLineAddress": "神南1-20-9 , 公園通りビル,\n渋谷区, 東京都, 150-0041",
+            "addressVerified": false,
+            "primaryAddress": false
+          },
+          "urlKey": null,
+          "directionsUrl": null,
+          "storeImageUrl": "http://rtlimages.apple.com/cmc/dieter/store/4_3/R119.png?resize=828:*&output-format=jpg",
+          "makeReservationUrl": "http://www.apple.com/jp/retail/shibuya",
+          "hoursAndInfoUrl": "http://www.apple.com/jp/retail/shibuya",
+          "storeHours": [
+            {
+              "storeDays": "月~日",
+              "voStoreDays": null,
+              "storeTimings": "10:00~21:00"
+            }
+          ],
+          "storeHolidays": [
+            {
+              "date": "Sep 5",
+              "description": "Fire Alarm",
+              "hours": "10:00~20:00",
+              "comments": null,
+              "closed": false
+            },
+            {
+              "date": "Sep 6",
+              "description": "Fire Alarm",
+              "hours": "10:00~20:00",
+              "comments": null,
+              "closed": false
+            },
+            {
+              "date": "Sep 7",
+              "description": "Fire Alarm",
+              "hours": "10:00~20:00",
+              "comments": null,
+              "closed": false
+            },
+            {
+              "date": "Sep 8",
+              "description": "Fire Alarm",
+              "hours": "10:00~20:00",
+              "comments": null,
+              "closed": false
+            },
+            {
+              "date": "Sep 9",
+              "description": "Fire Alarm",
+              "hours": "10:00~20:00",
+              "comments": null,
+              "closed": false
+            },
+            {
+              "date": "Sep 10",
+              "description": "Fire Alarm",
+              "hours": "10:00~20:00",
+              "comments": null,
+              "closed": false
+            },
+            {
+              "date": "Sep 11",
+              "description": "Fire Alarm",
+              "hours": "10:00~20:00",
+              "comments": null,
+              "closed": false
+            },
+            {
+              "date": "Sep 12",
+              "description": "Fire Alarm",
+              "hours": "10:00~20:00",
+              "comments": null,
+              "closed": false
+            }
+          ],
+          "secureStoreImageUrl": "https://rtlimages.apple.com/cmc/dieter/store/4_3/R119.png?resize=828:*&output-format=jpg",
+          "distance": 5.72,
+          "distanceUnit": "km",
+          "distanceWithUnit": "5.72 km",
+          "timezone": "Asia/Tokyo",
+          "storeIsActive": true,
+          "lastUpdated": 0,
+          "lastFetched": 1630811225441,
+          "dateStamp": "05-Sep-2021",
+          "distanceSeparator": ".",
+          "nextAvailableDate": null,
+          "storeHolidayLookAheadWindow": 7,
+          "driveDistanceWithUnit": null,
+          "driveDistanceInMeters": null,
+          "dynamicAttributes": {},
+          "storePickupMethodByType": {
+            "INSTORE": {
+              "services": [
+                "APU"
+              ],
+              "typeCoordinate": {
+                "lat": null,
+                "lon": null
+              },
+              "typeDirection": {
+                "directionByLocale": null
+              },
+              "typeMeetupLocation": {
+                "meetingLocationByLocale": null
+              },
+              "type": "INSTORE"
+            }
+          },
+          "storeTimings": null,
+          "availableNow": true
+        },
+        "storelistnumber": 5,
+        "storeListNumber": 5,
+        "pickupOptionsDetails": {
+          "whatToExpectAtPickup": "<span class=\"as-pickupmethods-intro-header\">お受け取りの際に&nbsp;</span><br />商品のお受け取りの準備が整い次第、詳しい手順をメールでお知らせします。新しいデバイスのセットアップをご希望の場合は、Appleのスペシャリストとのオンラインパーソナルセッションを無料で予約することができます。",
+          "comparePickupOptionsLink": "<a href=\"https://www.apple.com/jp/shop/shipping-pickup\" data-feature-name=\"Astro Link\" data-display-name=\"AOS: shop/shipping-pickup\" target=\"_blank\">配送と受け取りについて<br />さらに詳しく<span class=\"icon icon-after icon-chevronright\"></span><span class=\"visuallyhidden\">（新しいウインドウで開きます）</span></a>",
+          "pickupOptions": [
+            {
+              "pickupOptionTitle": "店内",
+              "pickupOptionDescription": "オンラインで注文した商品を受け取れます。セットアップについてのサポートを受けたり、アクセサリを購入することができます。検温とマスクの着用をお願いする場合があります。",
+              "index": 1
+            }
+          ]
+        },
+        "rank": 5,
+        "pickupEncodedUpperDateString": "20210905"
+      },
+      {
+        "storeEmail": "applekawasaki@apple.com",
+        "storeName": "川崎",
+        "reservationUrl": "http://www.apple.com/jp/retail/kawasaki",
+        "makeReservationUrl": "http://www.apple.com/jp/retail/kawasaki",
+        "state": "神奈川県",
+        "storeImageUrl": "https://rtlimages.apple.com/cmc/dieter/store/4_3/R710.png?resize=828:*&output-format=jpg",
+        "country": "JP",
+        "city": "川崎市",
+        "storeNumber": "R710",
+        "partsAvailability": {
+          "MGMC3J/A": {
+            "storePickEligible": true,
+            "storeSearchEnabled": true,
+            "storeSelectionEnabled": false,
+            "storePickupQuote": "Apple 川崎では現在ご利用いただけません",
+            "storePickupQuote2_0": "<button type=\"button\" class=\"rf-pickup-quote-overlay-trigger as-retailavailabilitytrigger-infobutton retail-availability-search-trigger as-buttonlink\" data-ase-overlay=\"buac-overlay\" data-ase-click=\"show\">Apple 川崎</button>では現在ご利用いただけません",
+            "pickupSearchQuote": "選択できません",
+            "storePickupLabel": "受取日：",
+            "partNumber": "MGMC3J/A",
+            "purchaseOption": "",
+            "ctoOptions": "",
+            "storePickupLinkText": "受け取れる日を確認",
+            "storePickupProductTitle": "iPhone 12 Pro 256GB ゴールド",
+            "pickupDisplay": "unavailable",
+            "pickupType": "受け取り方法：店内"
+          },
+          "MGM83J/A": {
+            "storePickEligible": true,
+            "storeSearchEnabled": true,
+            "storeSelectionEnabled": false,
+            "storePickupQuote": "Apple 川崎では現在ご利用いただけません",
+            "storePickupQuote2_0": "<button type=\"button\" class=\"rf-pickup-quote-overlay-trigger as-retailavailabilitytrigger-infobutton retail-availability-search-trigger as-buttonlink\" data-ase-overlay=\"buac-overlay\" data-ase-click=\"show\">Apple 川崎</button>では現在ご利用いただけません",
+            "pickupSearchQuote": "選択できません",
+            "storePickupLabel": "受取日：",
+            "partNumber": "MGM83J/A",
+            "purchaseOption": "",
+            "ctoOptions": "",
+            "storePickupLinkText": "受け取れる日を確認",
+            "storePickupProductTitle": "iPhone 12 Pro 128GB パシフィックブルー",
+            "pickupDisplay": "unavailable",
+            "pickupType": "受け取り方法：店内"
+          }
+        },
+        "phoneNumber": "044-5775100",
+        "pickupTypeAvailabilityText": "店内 この場所で受け取りが可能です。",
+        "address": {
+          "address": "Apple 川崎",
+          "address3": "ラゾーナ川崎プラザ",
+          "address2": "幸区堀川町72-1",
+          "postalCode": "212-0013"
+        },
+        "hoursUrl": "http://www.apple.com/jp/retail/kawasaki",
+        "storeHours": {
+          "storeHoursText": "営業時間",
+          "bopisPickupDays": "日数",
+          "bopisPickupHours": "時間",
+          "hours": [
+            {
+              "storeTimings": "10:00~21:00",
+              "storeDays": "月~日:"
+            }
+          ]
+        },
+        "specialHours": {
+          "specialHoursText": "特別営業時間：",
+          "bopisPickupDays": "日数",
+          "bopisPickupHours": "時間",
+          "specialHoursData": [
+            {
+              "specialDays": "Sep 5:",
+              "specialTimings": "10:00~20:00"
+            },
+            {
+              "specialDays": "Sep 6:",
+              "specialTimings": "10:00~20:00"
+            }
+          ],
+          "viewAllSpecialHours": true
+        },
+        "storelatitude": 35.532695,
+        "storelongitude": 139.695856,
+        "storedistance": 17.82,
+        "storeDistanceWithUnit": "17.82 km",
+        "storeDistanceVoText": "212-0013からの距離：17.82 km",
+        "retailStore": {
+          "storeNumber": "R710",
+          "storeUniqueId": "R710",
+          "name": "川崎",
+          "storeTypeKey": "1",
+          "storeSubTypeKey": "0",
+          "storeType": "APPLESTORE_DEFAULT",
+          "phoneNumber": "044-5775100",
+          "email": "applekawasaki@apple.com",
+          "carrierCode": null,
+          "locationType": null,
+          "latitude": 35.532695,
+          "longitude": 139.695856,
+          "address": {
+            "city": "川崎市",
+            "companyName": "Apple 川崎",
+            "countryCode": "JP",
+            "county": null,
+            "district": null,
+            "geoCode": null,
+            "label": null,
+            "languageCode": "ja-jp",
+            "mailStop": null,
+            "postalCode": "212-0013",
+            "province": null,
+            "state": "神奈川県",
+            "street": "幸区堀川町72-1",
+            "street2": "ラゾーナ川崎プラザ",
+            "street3": null,
+            "suburb": null,
+            "type": "SHIPPING",
+            "addrSourceType": null,
+            "outsideCityFlag": null,
+            "daytimePhoneAreaCode": null,
+            "eveningPhoneAreaCode": null,
+            "daytimePhone": "044-5775100",
+            "fullPhoneNumber": null,
+            "eveningPhone": null,
+            "emailAddress": null,
+            "firstName": null,
+            "lastName": null,
+            "suffix": null,
+            "lastNamePhonetic": null,
+            "firstNamePhonetic": null,
+            "title": null,
+            "businessAddress": false,
+            "uuid": "f68fe688-a334-4de0-9a4d-f0deedc97caf",
+            "mobilePhone": null,
+            "mobilePhoneAreaCode": null,
+            "cityStateZip": null,
+            "daytimePhoneSelected": false,
+            "middleName": null,
+            "residenceStatus": null,
+            "moveInDate": null,
+            "subscriberId": null,
+            "locationType": null,
+            "carrierCode": null,
+            "metadata": {},
+            "verificationState": "UN_VERIFIED",
+            "markForDeletion": false,
+            "expiration": null,
+            "fullEveningPhone": null,
+            "fullDaytimePhone": "044-5775100",
+            "correctionResult": null,
+            "twoLineAddress": "幸区堀川町72-1, ラゾーナ川崎プラザ,\n川崎市, 神奈川県, 212-0013",
+            "addressVerified": false,
+            "primaryAddress": false
+          },
+          "urlKey": null,
+          "directionsUrl": null,
+          "storeImageUrl": "http://rtlimages.apple.com/cmc/dieter/store/4_3/R710.png?resize=828:*&output-format=jpg",
+          "makeReservationUrl": "http://www.apple.com/jp/retail/kawasaki",
+          "hoursAndInfoUrl": "http://www.apple.com/jp/retail/kawasaki",
+          "storeHours": [
+            {
+              "storeDays": "月~日",
+              "voStoreDays": null,
+              "storeTimings": "10:00~21:00"
+            }
+          ],
+          "storeHolidays": [
+            {
+              "date": "Sep 5",
+              "description": "Fire Alarm",
+              "hours": "10:00~20:00",
+              "comments": null,
+              "closed": false
+            },
+            {
+              "date": "Sep 6",
+              "description": "Fire Alarm",
+              "hours": "10:00~20:00",
+              "comments": null,
+              "closed": false
+            },
+            {
+              "date": "Sep 7",
+              "description": "Fire Alarm",
+              "hours": "10:00~20:00",
+              "comments": null,
+              "closed": false
+            },
+            {
+              "date": "Sep 8",
+              "description": "Fire Alarm",
+              "hours": "10:00~20:00",
+              "comments": null,
+              "closed": false
+            },
+            {
+              "date": "Sep 9",
+              "description": "Fire Alarm",
+              "hours": "10:00~20:00",
+              "comments": null,
+              "closed": false
+            },
+            {
+              "date": "Sep 10",
+              "description": "Fire Alarm",
+              "hours": "10:00~20:00",
+              "comments": null,
+              "closed": false
+            },
+            {
+              "date": "Sep 11",
+              "description": "Fire Alarm",
+              "hours": "10:00~20:00",
+              "comments": null,
+              "closed": false
+            },
+            {
+              "date": "Sep 12",
+              "description": "Fire Alarm",
+              "hours": "10:00~20:00",
+              "comments": null,
+              "closed": false
+            }
+          ],
+          "secureStoreImageUrl": "https://rtlimages.apple.com/cmc/dieter/store/4_3/R710.png?resize=828:*&output-format=jpg",
+          "distance": 17.82,
+          "distanceUnit": "km",
+          "distanceWithUnit": "17.82 km",
+          "timezone": "Asia/Tokyo",
+          "storeIsActive": true,
+          "lastUpdated": 0,
+          "lastFetched": 1630811225444,
+          "dateStamp": "05-Sep-2021",
+          "distanceSeparator": ".",
+          "nextAvailableDate": null,
+          "storeHolidayLookAheadWindow": 7,
+          "driveDistanceWithUnit": null,
+          "driveDistanceInMeters": null,
+          "dynamicAttributes": {},
+          "storePickupMethodByType": {
+            "INSTORE": {
+              "services": [
+                "APU"
+              ],
+              "typeCoordinate": {
+                "lat": null,
+                "lon": null
+              },
+              "typeDirection": {
+                "directionByLocale": null
+              },
+              "typeMeetupLocation": {
+                "meetingLocationByLocale": null
+              },
+              "type": "INSTORE"
+            }
+          },
+          "storeTimings": null,
+          "availableNow": true
+        },
+        "storelistnumber": 6,
+        "storeListNumber": 6,
+        "pickupOptionsDetails": {
+          "whatToExpectAtPickup": "<span class=\"as-pickupmethods-intro-header\">お受け取りの際に&nbsp;</span><br />商品のお受け取りの準備が整い次第、詳しい手順をメールでお知らせします。新しいデバイスのセットアップをご希望の場合は、Appleのスペシャリストとのオンラインパーソナルセッションを無料で予約することができます。",
+          "comparePickupOptionsLink": "<a href=\"https://www.apple.com/jp/shop/shipping-pickup\" data-feature-name=\"Astro Link\" data-display-name=\"AOS: shop/shipping-pickup\" target=\"_blank\">配送と受け取りについて<br />さらに詳しく<span class=\"icon icon-after icon-chevronright\"></span><span class=\"visuallyhidden\">（新しいウインドウで開きます）</span></a>",
+          "pickupOptions": [
+            {
+              "pickupOptionTitle": "店内",
+              "pickupOptionDescription": "オンラインで注文した商品を受け取れます。セットアップについてのサポートを受けたり、アクセサリを購入することができます。検温とマスクの着用をお願いする場合があります。",
+              "index": 1
+            }
+          ]
+        },
+        "rank": 6
+      },
+      {
+        "storeEmail": "nagoyasakae@apple.com",
+        "storeName": "名古屋栄",
+        "reservationUrl": "http://www.apple.com/jp/retail/nagoyasakae",
+        "makeReservationUrl": "http://www.apple.com/jp/retail/nagoyasakae",
+        "state": "愛知県",
+        "storeImageUrl": "https://rtlimages.apple.com/cmc/dieter/store/4_3/R005.png?resize=828:*&output-format=jpg",
+        "country": "JP",
+        "city": "名古屋市",
+        "storeNumber": "R005",
+        "partsAvailability": {
+          "MGMC3J/A": {
+            "storePickEligible": true,
+            "storeSearchEnabled": true,
+            "storeSelectionEnabled": true,
+            "storePickupQuote": "本日 Apple 名古屋栄",
+            "storePickupQuote2_0": "<span class=\"as-pickup-quote-availability-quote\">本日</span> <button type=\"button\" class=\"rf-pickup-quote-overlay-trigger as-retailavailabilitytrigger-infobutton retail-availability-search-trigger as-buttonlink\" data-ase-overlay=\"buac-overlay\" data-ase-click=\"show\">Apple 名古屋栄</button>",
+            "pickupSearchQuote": "受け取れる日 本日",
+            "storePickupLabel": "受け取り方法（ストア）：",
+            "partNumber": "MGMC3J/A",
+            "purchaseOption": "",
+            "ctoOptions": "",
+            "storePickupLinkText": "受け取れる日を確認",
+            "storePickupProductTitle": "iPhone 12 Pro 256GB ゴールド",
+            "pickupDisplay": "available",
+            "pickupType": "受け取り方法：店内"
+          },
+          "MGM83J/A": {
+            "storePickEligible": true,
+            "storeSearchEnabled": true,
+            "storeSelectionEnabled": false,
+            "storePickupQuote": "Apple 名古屋栄では現在ご利用いただけません",
+            "storePickupQuote2_0": "<button type=\"button\" class=\"rf-pickup-quote-overlay-trigger as-retailavailabilitytrigger-infobutton retail-availability-search-trigger as-buttonlink\" data-ase-overlay=\"buac-overlay\" data-ase-click=\"show\">Apple 名古屋栄</button>では現在ご利用いただけません",
+            "pickupSearchQuote": "選択できません",
+            "storePickupLabel": "受取日：",
+            "partNumber": "MGM83J/A",
+            "purchaseOption": "",
+            "ctoOptions": "",
+            "storePickupLinkText": "受け取れる日を確認",
+            "storePickupProductTitle": "iPhone 12 Pro 128GB パシフィックブルー",
+            "pickupDisplay": "unavailable",
+            "pickupType": "受け取り方法：店内"
+          }
+        },
+        "phoneNumber": "052-2382400",
+        "pickupTypeAvailabilityText": "店内 この場所で受け取りが可能です。",
+        "address": {
+          "address": "Apple 名古屋栄",
+          "address3": "エフエックスビル",
+          "address2": "中区栄3-17-15",
+          "postalCode": "460-0008"
+        },
+        "hoursUrl": "http://www.apple.com/jp/retail/nagoyasakae",
+        "storeHours": {
+          "storeHoursText": "営業時間",
+          "bopisPickupDays": "日数",
+          "bopisPickupHours": "時間",
+          "hours": [
+            {
+              "storeTimings": "10:00~21:00",
+              "storeDays": "月~日:"
+            }
+          ]
+        },
+        "specialHours": {
+          "specialHoursText": "特別営業時間：",
+          "bopisPickupDays": "日数",
+          "bopisPickupHours": "時間",
+          "specialHoursData": [
+            {
+              "specialDays": "Sep 5:",
+              "specialTimings": "10:00~20:00"
+            },
+            {
+              "specialDays": "Sep 6:",
+              "specialTimings": "10:00~20:00"
+            }
+          ],
+          "viewAllSpecialHours": true
+        },
+        "storelatitude": 35.16555,
+        "storelongitude": 136.90716,
+        "storedistance": 264.53,
+        "storeDistanceWithUnit": "264.53 km",
+        "storeDistanceVoText": "460-0008からの距離：264.53 km",
+        "retailStore": {
+          "storeNumber": "R005",
+          "storeUniqueId": "R005",
+          "name": "名古屋栄",
+          "storeTypeKey": "1",
+          "storeSubTypeKey": "0",
+          "storeType": "APPLESTORE_DEFAULT",
+          "phoneNumber": "052-2382400",
+          "email": "nagoyasakae@apple.com",
+          "carrierCode": null,
+          "locationType": null,
+          "latitude": 35.16555,
+          "longitude": 136.90716,
+          "address": {
+            "city": "名古屋市",
+            "companyName": "Apple 名古屋栄",
+            "countryCode": "JP",
+            "county": null,
+            "district": null,
+            "geoCode": null,
+            "label": null,
+            "languageCode": "ja-jp",
+            "mailStop": null,
+            "postalCode": "460-0008",
+            "province": null,
+            "state": "愛知県",
+            "street": "中区栄3-17-15",
+            "street2": "エフエックスビル",
+            "street3": null,
+            "suburb": null,
+            "type": "SHIPPING",
+            "addrSourceType": null,
+            "outsideCityFlag": null,
+            "daytimePhoneAreaCode": null,
+            "eveningPhoneAreaCode": null,
+            "daytimePhone": "052-2382400",
+            "fullPhoneNumber": null,
+            "eveningPhone": null,
+            "emailAddress": null,
+            "firstName": null,
+            "lastName": null,
+            "suffix": null,
+            "lastNamePhonetic": null,
+            "firstNamePhonetic": null,
+            "title": null,
+            "businessAddress": false,
+            "uuid": "a7188dc2-4a4f-4611-bb5a-b061756b7b5d",
+            "mobilePhone": null,
+            "mobilePhoneAreaCode": null,
+            "cityStateZip": null,
+            "daytimePhoneSelected": false,
+            "middleName": null,
+            "residenceStatus": null,
+            "moveInDate": null,
+            "subscriberId": null,
+            "locationType": null,
+            "carrierCode": null,
+            "metadata": {},
+            "verificationState": "UN_VERIFIED",
+            "markForDeletion": false,
+            "expiration": null,
+            "fullEveningPhone": null,
+            "fullDaytimePhone": "052-2382400",
+            "correctionResult": null,
+            "twoLineAddress": "中区栄3-17-15, エフエックスビル,\n名古屋市, 愛知県, 460-0008",
+            "addressVerified": false,
+            "primaryAddress": false
+          },
+          "urlKey": null,
+          "directionsUrl": null,
+          "storeImageUrl": "http://rtlimages.apple.com/cmc/dieter/store/4_3/R005.png?resize=828:*&output-format=jpg",
+          "makeReservationUrl": "http://www.apple.com/jp/retail/nagoyasakae",
+          "hoursAndInfoUrl": "http://www.apple.com/jp/retail/nagoyasakae",
+          "storeHours": [
+            {
+              "storeDays": "月~日",
+              "voStoreDays": null,
+              "storeTimings": "10:00~21:00"
+            }
+          ],
+          "storeHolidays": [
+            {
+              "date": "Sep 5",
+              "description": "Fire Alarm",
+              "hours": "10:00~20:00",
+              "comments": null,
+              "closed": false
+            },
+            {
+              "date": "Sep 6",
+              "description": "Fire Alarm",
+              "hours": "10:00~20:00",
+              "comments": null,
+              "closed": false
+            },
+            {
+              "date": "Sep 7",
+              "description": "Fire Alarm",
+              "hours": "10:00~20:00",
+              "comments": null,
+              "closed": false
+            },
+            {
+              "date": "Sep 8",
+              "description": "Fire Alarm",
+              "hours": "10:00~20:00",
+              "comments": null,
+              "closed": false
+            },
+            {
+              "date": "Sep 9",
+              "description": "Fire Alarm",
+              "hours": "10:00~20:00",
+              "comments": null,
+              "closed": false
+            },
+            {
+              "date": "Sep 10",
+              "description": "Fire Alarm",
+              "hours": "10:00~20:00",
+              "comments": null,
+              "closed": false
+            },
+            {
+              "date": "Sep 11",
+              "description": "Fire Alarm",
+              "hours": "10:00~20:00",
+              "comments": null,
+              "closed": false
+            },
+            {
+              "date": "Sep 12",
+              "description": "Fire Alarm",
+              "hours": "10:00~20:00",
+              "comments": null,
+              "closed": false
+            }
+          ],
+          "secureStoreImageUrl": "https://rtlimages.apple.com/cmc/dieter/store/4_3/R005.png?resize=828:*&output-format=jpg",
+          "distance": 264.53,
+          "distanceUnit": "km",
+          "distanceWithUnit": "264.53 km",
+          "timezone": "Asia/Tokyo",
+          "storeIsActive": true,
+          "lastUpdated": 0,
+          "lastFetched": 1630811225446,
+          "dateStamp": "05-Sep-2021",
+          "distanceSeparator": ".",
+          "nextAvailableDate": null,
+          "storeHolidayLookAheadWindow": 7,
+          "driveDistanceWithUnit": null,
+          "driveDistanceInMeters": null,
+          "dynamicAttributes": {},
+          "storePickupMethodByType": {
+            "INSTORE": {
+              "services": [
+                "APU"
+              ],
+              "typeCoordinate": {
+                "lat": 35.16555,
+                "lon": 136.90716
+              },
+              "typeDirection": {
+                "directionByLocale": null
+              },
+              "typeMeetupLocation": {
+                "meetingLocationByLocale": null
+              },
+              "type": "INSTORE"
+            }
+          },
+          "storeTimings": null,
+          "availableNow": true
+        },
+        "storelistnumber": 7,
+        "storeListNumber": 7,
+        "pickupOptionsDetails": {
+          "whatToExpectAtPickup": "<span class=\"as-pickupmethods-intro-header\">お受け取りの際に&nbsp;</span><br />商品のお受け取りの準備が整い次第、詳しい手順をメールでお知らせします。新しいデバイスのセットアップをご希望の場合は、Appleのスペシャリストとのオンラインパーソナルセッションを無料で予約することができます。",
+          "comparePickupOptionsLink": "<a href=\"https://www.apple.com/jp/shop/shipping-pickup\" data-feature-name=\"Astro Link\" data-display-name=\"AOS: shop/shipping-pickup\" target=\"_blank\">配送と受け取りについて<br />さらに詳しく<span class=\"icon icon-after icon-chevronright\"></span><span class=\"visuallyhidden\">（新しいウインドウで開きます）</span></a>",
+          "pickupOptions": [
+            {
+              "pickupOptionTitle": "店内",
+              "pickupOptionDescription": "オンラインで注文した商品を受け取れます。セットアップについてのサポートを受けたり、アクセサリを購入することができます。検温とマスクの着用をお願いする場合があります。",
+              "index": 1
+            }
+          ]
+        },
+        "rank": 7
+      },
+      {
+        "storeEmail": "kyoto@apple.com",
+        "storeName": "京都",
+        "reservationUrl": "http://www.apple.com/jp/retail/kyoto/",
+        "makeReservationUrl": "http://www.apple.com/jp/retail/kyoto/",
+        "state": "京都府",
+        "storeImageUrl": "https://rtlimages.apple.com/cmc/dieter/store/4_3/R711.png?resize=828:*&output-format=jpg",
+        "country": "JP",
+        "city": "京都市",
+        "storeNumber": "R711",
+        "partsAvailability": {
+          "MGMC3J/A": {
+            "storePickEligible": true,
+            "storeSearchEnabled": true,
+            "storeSelectionEnabled": true,
+            "storePickupQuote": "本日 Apple 京都",
+            "storePickupQuote2_0": "<span class=\"as-pickup-quote-availability-quote\">本日</span> <button type=\"button\" class=\"rf-pickup-quote-overlay-trigger as-retailavailabilitytrigger-infobutton retail-availability-search-trigger as-buttonlink\" data-ase-overlay=\"buac-overlay\" data-ase-click=\"show\">Apple 京都</button>",
+            "pickupSearchQuote": "受け取れる日 本日",
+            "storePickupLabel": "受け取り方法（ストア）：",
+            "partNumber": "MGMC3J/A",
+            "purchaseOption": "",
+            "ctoOptions": "",
+            "storePickupLinkText": "受け取れる日を確認",
+            "storePickupProductTitle": "iPhone 12 Pro 256GB ゴールド",
+            "pickupDisplay": "available",
+            "pickupType": "受け取り方法：店内"
+          },
+          "MGM83J/A": {
+            "storePickEligible": true,
+            "storeSearchEnabled": true,
+            "storeSelectionEnabled": true,
+            "storePickupQuote": "本日 Apple 京都",
+            "storePickupQuote2_0": "<span class=\"as-pickup-quote-availability-quote\">本日</span> <button type=\"button\" class=\"rf-pickup-quote-overlay-trigger as-retailavailabilitytrigger-infobutton retail-availability-search-trigger as-buttonlink\" data-ase-overlay=\"buac-overlay\" data-ase-click=\"show\">Apple 京都</button>",
+            "pickupSearchQuote": "受け取れる日 本日",
+            "storePickupLabel": "受け取り方法（ストア）：",
+            "partNumber": "MGM83J/A",
+            "purchaseOption": "",
+            "ctoOptions": "",
+            "storePickupLinkText": "受け取れる日を確認",
+            "storePickupProductTitle": "iPhone 12 Pro 128GB パシフィックブルー",
+            "pickupDisplay": "available",
+            "pickupType": "受け取り方法：店内"
+          }
+        },
+        "phoneNumber": "075-7578700",
+        "pickupTypeAvailabilityText": "店内 この場所で受け取りが可能です。",
+        "address": {
+          "address": "Apple 京都",
+          "address3": "四条通高倉東入立売中之町83-1",
+          "address2": "下京区",
+          "postalCode": "600-8006"
+        },
+        "hoursUrl": "http://www.apple.com/jp/retail/kyoto/",
+        "storeHours": {
+          "storeHoursText": "営業時間",
+          "bopisPickupDays": "日数",
+          "bopisPickupHours": "時間",
+          "hours": [
+            {
+              "storeTimings": "10:00~21:00",
+              "storeDays": "月~日:"
+            }
+          ]
+        },
+        "specialHours": {
+          "specialHoursText": "特別営業時間：",
+          "bopisPickupDays": "日数",
+          "bopisPickupHours": "時間",
+          "specialHoursData": [
+            {
+              "specialDays": "Sep 5:",
+              "specialTimings": "10:00~20:00"
+            },
+            {
+              "specialDays": "Sep 6:",
+              "specialTimings": "10:00~20:00"
+            }
+          ],
+          "viewAllSpecialHours": true
+        },
+        "storelatitude": 35.003825,
+        "storelongitude": 135.762675,
+        "storedistance": 370.03,
+        "storeDistanceWithUnit": "370.03 km",
+        "storeDistanceVoText": "600-8006からの距離：370.03 km",
+        "retailStore": {
+          "storeNumber": "R711",
+          "storeUniqueId": "R711",
+          "name": "京都",
+          "storeTypeKey": "1",
+          "storeSubTypeKey": "0",
+          "storeType": "APPLESTORE_DEFAULT",
+          "phoneNumber": "075-7578700",
+          "email": "kyoto@apple.com",
+          "carrierCode": null,
+          "locationType": null,
+          "latitude": 35.003825,
+          "longitude": 135.762675,
+          "address": {
+            "city": "京都市",
+            "companyName": "Apple 京都",
+            "countryCode": "JP",
+            "county": null,
+            "district": null,
+            "geoCode": null,
+            "label": null,
+            "languageCode": "ja-jp",
+            "mailStop": null,
+            "postalCode": "600-8006",
+            "province": null,
+            "state": "京都府",
+            "street": "下京区",
+            "street2": "四条通高倉東入立売中之町83-1",
+            "street3": null,
+            "suburb": null,
+            "type": "SHIPPING",
+            "addrSourceType": null,
+            "outsideCityFlag": null,
+            "daytimePhoneAreaCode": null,
+            "eveningPhoneAreaCode": null,
+            "daytimePhone": "075-7578700",
+            "fullPhoneNumber": null,
+            "eveningPhone": null,
+            "emailAddress": null,
+            "firstName": null,
+            "lastName": null,
+            "suffix": null,
+            "lastNamePhonetic": null,
+            "firstNamePhonetic": null,
+            "title": null,
+            "businessAddress": false,
+            "uuid": "92258278-0d10-4406-97e4-f4c5bb882433",
+            "mobilePhone": null,
+            "mobilePhoneAreaCode": null,
+            "cityStateZip": null,
+            "daytimePhoneSelected": false,
+            "middleName": null,
+            "residenceStatus": null,
+            "moveInDate": null,
+            "subscriberId": null,
+            "locationType": null,
+            "carrierCode": null,
+            "metadata": {},
+            "verificationState": "UN_VERIFIED",
+            "markForDeletion": false,
+            "expiration": null,
+            "fullEveningPhone": null,
+            "fullDaytimePhone": "075-7578700",
+            "correctionResult": null,
+            "twoLineAddress": "下京区, 四条通高倉東入立売中之町83-1,\n京都市, 京都府, 600-8006",
+            "addressVerified": false,
+            "primaryAddress": false
+          },
+          "urlKey": null,
+          "directionsUrl": null,
+          "storeImageUrl": "http://rtlimages.apple.com/cmc/dieter/store/4_3/R711.png?resize=828:*&output-format=jpg",
+          "makeReservationUrl": "http://www.apple.com/jp/retail/kyoto/",
+          "hoursAndInfoUrl": "http://www.apple.com/jp/retail/kyoto/",
+          "storeHours": [
+            {
+              "storeDays": "月~日",
+              "voStoreDays": null,
+              "storeTimings": "10:00~21:00"
+            }
+          ],
+          "storeHolidays": [
+            {
+              "date": "Sep 5",
+              "description": "Fire Alarm",
+              "hours": "10:00~20:00",
+              "comments": null,
+              "closed": false
+            },
+            {
+              "date": "Sep 6",
+              "description": "Fire Alarm",
+              "hours": "10:00~20:00",
+              "comments": null,
+              "closed": false
+            },
+            {
+              "date": "Sep 7",
+              "description": "Fire Alarm",
+              "hours": "10:00~20:00",
+              "comments": null,
+              "closed": false
+            },
+            {
+              "date": "Sep 8",
+              "description": "Fire Alarm",
+              "hours": "10:00~20:00",
+              "comments": null,
+              "closed": false
+            },
+            {
+              "date": "Sep 9",
+              "description": "Fire Alarm",
+              "hours": "10:00~20:00",
+              "comments": null,
+              "closed": false
+            },
+            {
+              "date": "Sep 10",
+              "description": "Fire Alarm",
+              "hours": "10:00~20:00",
+              "comments": null,
+              "closed": false
+            },
+            {
+              "date": "Sep 11",
+              "description": "Fire Alarm",
+              "hours": "10:00~20:00",
+              "comments": null,
+              "closed": false
+            },
+            {
+              "date": "Sep 12",
+              "description": "Fire Alarm",
+              "hours": "10:00~20:00",
+              "comments": null,
+              "closed": false
+            }
+          ],
+          "secureStoreImageUrl": "https://rtlimages.apple.com/cmc/dieter/store/4_3/R711.png?resize=828:*&output-format=jpg",
+          "distance": 370.03,
+          "distanceUnit": "km",
+          "distanceWithUnit": "370.03 km",
+          "timezone": "Asia/Tokyo",
+          "storeIsActive": true,
+          "lastUpdated": 0,
+          "lastFetched": 1630811225449,
+          "dateStamp": "05-Sep-2021",
+          "distanceSeparator": ".",
+          "nextAvailableDate": null,
+          "storeHolidayLookAheadWindow": 7,
+          "driveDistanceWithUnit": null,
+          "driveDistanceInMeters": null,
+          "dynamicAttributes": {},
+          "storePickupMethodByType": {
+            "INSTORE": {
+              "services": [
+                "APU"
+              ],
+              "typeCoordinate": {
+                "lat": null,
+                "lon": null
+              },
+              "typeDirection": {
+                "directionByLocale": null
+              },
+              "typeMeetupLocation": {
+                "meetingLocationByLocale": null
+              },
+              "type": "INSTORE"
+            }
+          },
+          "storeTimings": null,
+          "availableNow": true
+        },
+        "storelistnumber": 8,
+        "storeListNumber": 8,
+        "pickupOptionsDetails": {
+          "whatToExpectAtPickup": "<span class=\"as-pickupmethods-intro-header\">お受け取りの際に&nbsp;</span><br />商品のお受け取りの準備が整い次第、詳しい手順をメールでお知らせします。新しいデバイスのセットアップをご希望の場合は、Appleのスペシャリストとのオンラインパーソナルセッションを無料で予約することができます。",
+          "comparePickupOptionsLink": "<a href=\"https://www.apple.com/jp/shop/shipping-pickup\" data-feature-name=\"Astro Link\" data-display-name=\"AOS: shop/shipping-pickup\" target=\"_blank\">配送と受け取りについて<br />さらに詳しく<span class=\"icon icon-after icon-chevronright\"></span><span class=\"visuallyhidden\">（新しいウインドウで開きます）</span></a>",
+          "pickupOptions": [
+            {
+              "pickupOptionTitle": "店内",
+              "pickupOptionDescription": "オンラインで注文した商品を受け取れます。セットアップについてのサポートを受けたり、アクセサリを購入することができます。検温とマスクの着用をお願いする場合があります。",
+              "index": 1
+            }
+          ]
+        },
+        "rank": 8,
+        "pickupEncodedUpperDateString": "20210905"
+      },
+      {
+        "storeEmail": "shinsaibashi@apple.com",
+        "storeName": "心斎橋",
+        "reservationUrl": "http://www.apple.com/jp/retail/shinsaibashi",
+        "makeReservationUrl": "http://www.apple.com/jp/retail/shinsaibashi",
+        "state": "大阪府",
+        "storeImageUrl": "https://rtlimages.apple.com/cmc/dieter/store/4_3/R091.png?resize=828:*&output-format=jpg",
+        "country": "JP",
+        "city": "大阪市",
+        "storeNumber": "R091",
+        "partsAvailability": {
+          "MGMC3J/A": {
+            "storePickEligible": true,
+            "storeSearchEnabled": true,
+            "storeSelectionEnabled": false,
+            "storePickupQuote": "Apple 心斎橋では現在ご利用いただけません",
+            "storePickupQuote2_0": "<button type=\"button\" class=\"rf-pickup-quote-overlay-trigger as-retailavailabilitytrigger-infobutton retail-availability-search-trigger as-buttonlink\" data-ase-overlay=\"buac-overlay\" data-ase-click=\"show\">Apple 心斎橋</button>では現在ご利用いただけません",
+            "pickupSearchQuote": "選択できません",
+            "storePickupLabel": "受取日：",
+            "partNumber": "MGMC3J/A",
+            "purchaseOption": "",
+            "ctoOptions": "",
+            "storePickupLinkText": "受け取れる日を確認",
+            "storePickupProductTitle": "iPhone 12 Pro 256GB ゴールド",
+            "pickupDisplay": "unavailable",
+            "pickupType": "受け取り方法：店内"
+          },
+          "MGM83J/A": {
+            "storePickEligible": true,
+            "storeSearchEnabled": true,
+            "storeSelectionEnabled": true,
+            "storePickupQuote": "本日 Apple 心斎橋",
+            "storePickupQuote2_0": "<span class=\"as-pickup-quote-availability-quote\">本日</span> <button type=\"button\" class=\"rf-pickup-quote-overlay-trigger as-retailavailabilitytrigger-infobutton retail-availability-search-trigger as-buttonlink\" data-ase-overlay=\"buac-overlay\" data-ase-click=\"show\">Apple 心斎橋</button>",
+            "pickupSearchQuote": "受け取れる日 本日",
+            "storePickupLabel": "受け取り方法（ストア）：",
+            "partNumber": "MGM83J/A",
+            "purchaseOption": "",
+            "ctoOptions": "",
+            "storePickupLinkText": "受け取れる日を確認",
+            "storePickupProductTitle": "iPhone 12 Pro 128GB パシフィックブルー",
+            "pickupDisplay": "available",
+            "pickupType": "受け取り方法：店内"
+          }
+        },
+        "phoneNumber": "06-4963-4500",
+        "pickupTypeAvailabilityText": "店内 この場所で受け取りが可能です。",
+        "address": {
+          "address": "Apple 心斎橋",
+          "address3": "アーバンBLD心斎橋",
+          "address2": "中央区西心斎橋1-5-5",
+          "postalCode": "542-0086"
+        },
+        "hoursUrl": "http://www.apple.com/jp/retail/shinsaibashi",
+        "storeHours": {
+          "storeHoursText": "営業時間",
+          "bopisPickupDays": "日数",
+          "bopisPickupHours": "時間",
+          "hours": [
+            {
+              "storeTimings": "10:00~21:00",
+              "storeDays": "月~日:"
+            }
+          ]
+        },
+        "specialHours": {
+          "specialHoursText": "特別営業時間：",
+          "bopisPickupDays": "日数",
+          "bopisPickupHours": "時間",
+          "specialHoursData": [
+            {
+              "specialDays": "Sep 5:",
+              "specialTimings": "10:00~20:00"
+            },
+            {
+              "specialDays": "Sep 6:",
+              "specialTimings": "10:00~20:00"
+            }
+          ],
+          "viewAllSpecialHours": true
+        },
+        "storelatitude": 34.672,
+        "storelongitude": 135.50007,
+        "storedistance": 402.86,
+        "storeDistanceWithUnit": "402.86 km",
+        "storeDistanceVoText": "542-0086からの距離：402.86 km",
+        "retailStore": {
+          "storeNumber": "R091",
+          "storeUniqueId": "R091",
+          "name": "心斎橋",
+          "storeTypeKey": "1",
+          "storeSubTypeKey": "0",
+          "storeType": "APPLESTORE_DEFAULT",
+          "phoneNumber": "06-4963-4500",
+          "email": "shinsaibashi@apple.com",
+          "carrierCode": null,
+          "locationType": null,
+          "latitude": 34.672,
+          "longitude": 135.50007,
+          "address": {
+            "city": "大阪市",
+            "companyName": "Apple 心斎橋",
+            "countryCode": "JP",
+            "county": null,
+            "district": null,
+            "geoCode": null,
+            "label": null,
+            "languageCode": "ja-jp",
+            "mailStop": null,
+            "postalCode": "542-0086",
+            "province": null,
+            "state": "大阪府",
+            "street": "中央区西心斎橋1-5-5",
+            "street2": "アーバンBLD心斎橋",
+            "street3": null,
+            "suburb": null,
+            "type": "SHIPPING",
+            "addrSourceType": null,
+            "outsideCityFlag": null,
+            "daytimePhoneAreaCode": null,
+            "eveningPhoneAreaCode": null,
+            "daytimePhone": "06-4963-4500",
+            "fullPhoneNumber": null,
+            "eveningPhone": null,
+            "emailAddress": null,
+            "firstName": null,
+            "lastName": null,
+            "suffix": null,
+            "lastNamePhonetic": null,
+            "firstNamePhonetic": null,
+            "title": null,
+            "businessAddress": false,
+            "uuid": "b6e61dec-fbe6-4792-ad48-9694e2d37e79",
+            "mobilePhone": null,
+            "mobilePhoneAreaCode": null,
+            "cityStateZip": null,
+            "daytimePhoneSelected": false,
+            "middleName": null,
+            "residenceStatus": null,
+            "moveInDate": null,
+            "subscriberId": null,
+            "locationType": null,
+            "carrierCode": null,
+            "metadata": {},
+            "verificationState": "UN_VERIFIED",
+            "markForDeletion": false,
+            "expiration": null,
+            "fullEveningPhone": null,
+            "fullDaytimePhone": "06-4963-4500",
+            "correctionResult": null,
+            "twoLineAddress": "中央区西心斎橋1-5-5, アーバンBLD心斎橋,\n大阪市, 大阪府, 542-0086",
+            "addressVerified": false,
+            "primaryAddress": false
+          },
+          "urlKey": null,
+          "directionsUrl": null,
+          "storeImageUrl": "http://rtlimages.apple.com/cmc/dieter/store/4_3/R091.png?resize=828:*&output-format=jpg",
+          "makeReservationUrl": "http://www.apple.com/jp/retail/shinsaibashi",
+          "hoursAndInfoUrl": "http://www.apple.com/jp/retail/shinsaibashi",
+          "storeHours": [
+            {
+              "storeDays": "月~日",
+              "voStoreDays": null,
+              "storeTimings": "10:00~21:00"
+            }
+          ],
+          "storeHolidays": [
+            {
+              "date": "Sep 5",
+              "description": "Fire Alarm",
+              "hours": "10:00~20:00",
+              "comments": null,
+              "closed": false
+            },
+            {
+              "date": "Sep 6",
+              "description": "Fire Alarm",
+              "hours": "10:00~20:00",
+              "comments": null,
+              "closed": false
+            },
+            {
+              "date": "Sep 7",
+              "description": "Fire Alarm",
+              "hours": "10:00~20:00",
+              "comments": null,
+              "closed": false
+            },
+            {
+              "date": "Sep 8",
+              "description": "Fire Alarm",
+              "hours": "10:00~20:00",
+              "comments": null,
+              "closed": false
+            },
+            {
+              "date": "Sep 9",
+              "description": "Fire Alarm",
+              "hours": "10:00~20:00",
+              "comments": null,
+              "closed": false
+            },
+            {
+              "date": "Sep 10",
+              "description": "Fire Alarm",
+              "hours": "10:00~20:00",
+              "comments": null,
+              "closed": false
+            },
+            {
+              "date": "Sep 11",
+              "description": "Fire Alarm",
+              "hours": "10:00~20:00",
+              "comments": null,
+              "closed": false
+            },
+            {
+              "date": "Sep 12",
+              "description": "Fire Alarm",
+              "hours": "10:00~20:00",
+              "comments": null,
+              "closed": false
+            }
+          ],
+          "secureStoreImageUrl": "https://rtlimages.apple.com/cmc/dieter/store/4_3/R091.png?resize=828:*&output-format=jpg",
+          "distance": 402.86,
+          "distanceUnit": "km",
+          "distanceWithUnit": "402.86 km",
+          "timezone": "Asia/Tokyo",
+          "storeIsActive": true,
+          "lastUpdated": 0,
+          "lastFetched": 1630811225449,
+          "dateStamp": "05-Sep-2021",
+          "distanceSeparator": ".",
+          "nextAvailableDate": null,
+          "storeHolidayLookAheadWindow": 7,
+          "driveDistanceWithUnit": null,
+          "driveDistanceInMeters": null,
+          "dynamicAttributes": {},
+          "storePickupMethodByType": {
+            "INSTORE": {
+              "services": [
+                "APU"
+              ],
+              "typeCoordinate": {
+                "lat": null,
+                "lon": null
+              },
+              "typeDirection": {
+                "directionByLocale": null
+              },
+              "typeMeetupLocation": {
+                "meetingLocationByLocale": null
+              },
+              "type": "INSTORE"
+            }
+          },
+          "storeTimings": null,
+          "availableNow": true
+        },
+        "storelistnumber": 9,
+        "storeListNumber": 9,
+        "pickupOptionsDetails": {
+          "whatToExpectAtPickup": "<span class=\"as-pickupmethods-intro-header\">お受け取りの際に&nbsp;</span><br />商品のお受け取りの準備が整い次第、詳しい手順をメールでお知らせします。新しいデバイスのセットアップをご希望の場合は、Appleのスペシャリストとのオンラインパーソナルセッションを無料で予約することができます。",
+          "comparePickupOptionsLink": "<a href=\"https://www.apple.com/jp/shop/shipping-pickup\" data-feature-name=\"Astro Link\" data-display-name=\"AOS: shop/shipping-pickup\" target=\"_blank\">配送と受け取りについて<br />さらに詳しく<span class=\"icon icon-after icon-chevronright\"></span><span class=\"visuallyhidden\">（新しいウインドウで開きます）</span></a>",
+          "pickupOptions": [
+            {
+              "pickupOptionTitle": "店内",
+              "pickupOptionDescription": "オンラインで注文した商品を受け取れます。セットアップについてのサポートを受けたり、アクセサリを購入することができます。検温とマスクの着用をお願いする場合があります。",
+              "index": 1
+            }
+          ]
+        },
+        "rank": 9
+      },
+      {
+        "storeEmail": "applefukuoka@apple.com",
+        "storeName": "福岡",
+        "reservationUrl": "http://www.apple.com/jp/retail/fukuoka",
+        "makeReservationUrl": "http://www.apple.com/jp/retail/fukuoka",
+        "state": "福岡県",
+        "storeImageUrl": "https://rtlimages.apple.com/cmc/dieter/store/4_3/R048.png?resize=828:*&output-format=jpg",
+        "country": "JP",
+        "city": "福岡市",
+        "storeNumber": "R048",
+        "partsAvailability": {
+          "MGMC3J/A": {
+            "storePickEligible": true,
+            "storeSearchEnabled": true,
+            "storeSelectionEnabled": true,
+            "storePickupQuote": "明日 Apple 福岡",
+            "storePickupQuote2_0": "<span class=\"as-pickup-quote-availability-quote\">明日</span> <button type=\"button\" class=\"rf-pickup-quote-overlay-trigger as-retailavailabilitytrigger-infobutton retail-availability-search-trigger as-buttonlink\" data-ase-overlay=\"buac-overlay\" data-ase-click=\"show\">Apple 福岡</button>",
+            "pickupSearchQuote": "受け取れる日 明日",
+            "storePickupLabel": "受け取り方法（ストア）：",
+            "partNumber": "MGMC3J/A",
+            "purchaseOption": "",
+            "ctoOptions": "",
+            "storePickupLinkText": "受け取れる日を確認",
+            "storePickupProductTitle": "iPhone 12 Pro 256GB ゴールド",
+            "pickupDisplay": "available",
+            "pickupType": "受け取り方法：店内"
+          },
+          "MGM83J/A": {
+            "storePickEligible": true,
+            "storeSearchEnabled": true,
+            "storeSelectionEnabled": false,
+            "storePickupQuote": "Apple 福岡では現在ご利用いただけません",
+            "storePickupQuote2_0": "<button type=\"button\" class=\"rf-pickup-quote-overlay-trigger as-retailavailabilitytrigger-infobutton retail-availability-search-trigger as-buttonlink\" data-ase-overlay=\"buac-overlay\" data-ase-click=\"show\">Apple 福岡</button>では現在ご利用いただけません",
+            "pickupSearchQuote": "選択できません",
+            "storePickupLabel": "受取日：",
+            "partNumber": "MGM83J/A",
+            "purchaseOption": "",
+            "ctoOptions": "",
+            "storePickupLinkText": "受け取れる日を確認",
+            "storePickupProductTitle": "iPhone 12 Pro 128GB パシフィックブルー",
+            "pickupDisplay": "unavailable",
+            "pickupType": "受け取り方法：店内"
+          }
+        },
+        "phoneNumber": "092-7780200",
+        "pickupTypeAvailabilityText": "店内 この場所で受け取りが可能です。",
+        "address": {
+          "address": "Apple 福岡",
+          "address3": null,
+          "address2": "中央区天神2-5-19",
+          "postalCode": "810-0001"
+        },
+        "hoursUrl": "http://www.apple.com/jp/retail/fukuoka",
+        "storeHours": {
+          "storeHoursText": "営業時間",
+          "bopisPickupDays": "日数",
+          "bopisPickupHours": "時間",
+          "hours": [
+            {
+              "storeTimings": "10:00~21:00",
+              "storeDays": "月~日:"
+            }
+          ]
+        },
+        "specialHours": {
+          "specialHoursText": "特別営業時間：",
+          "bopisPickupDays": "日数",
+          "bopisPickupHours": "時間",
+          "specialHoursData": [
+            {
+              "specialDays": "Sep 5:",
+              "specialTimings": "10:00~20:00"
+            },
+            {
+              "specialDays": "Sep 6:",
+              "specialTimings": "10:00~20:00"
+            }
+          ],
+          "viewAllSpecialHours": true
+        },
+        "storelatitude": 33.587908,
+        "storelongitude": 130.397033,
+        "storedistance": 887.04,
+        "storeDistanceWithUnit": "887.04 km",
+        "storeDistanceVoText": "810-0001からの距離：887.04 km",
+        "retailStore": {
+          "storeNumber": "R048",
+          "storeUniqueId": "R048",
+          "name": "福岡",
+          "storeTypeKey": "1",
+          "storeSubTypeKey": "0",
+          "storeType": "APPLESTORE_DEFAULT",
+          "phoneNumber": "092-7780200",
+          "email": "applefukuoka@apple.com",
+          "carrierCode": null,
+          "locationType": null,
+          "latitude": 33.587908,
+          "longitude": 130.397033,
+          "address": {
+            "city": "福岡市",
+            "companyName": "Apple 福岡",
+            "countryCode": "JP",
+            "county": null,
+            "district": null,
+            "geoCode": null,
+            "label": null,
+            "languageCode": "ja-jp",
+            "mailStop": null,
+            "postalCode": "810-0001",
+            "province": null,
+            "state": "福岡県",
+            "street": "中央区天神2-5-19",
+            "street2": null,
+            "street3": null,
+            "suburb": null,
+            "type": "SHIPPING",
+            "addrSourceType": null,
+            "outsideCityFlag": null,
+            "daytimePhoneAreaCode": null,
+            "eveningPhoneAreaCode": null,
+            "daytimePhone": "092-7780200",
+            "fullPhoneNumber": null,
+            "eveningPhone": null,
+            "emailAddress": null,
+            "firstName": null,
+            "lastName": null,
+            "suffix": null,
+            "lastNamePhonetic": null,
+            "firstNamePhonetic": null,
+            "title": null,
+            "businessAddress": false,
+            "uuid": "71772258-638b-4b8d-866b-e0b7d8ce02c1",
+            "mobilePhone": null,
+            "mobilePhoneAreaCode": null,
+            "cityStateZip": null,
+            "daytimePhoneSelected": false,
+            "middleName": null,
+            "residenceStatus": null,
+            "moveInDate": null,
+            "subscriberId": null,
+            "locationType": null,
+            "carrierCode": null,
+            "metadata": {},
+            "verificationState": "UN_VERIFIED",
+            "markForDeletion": false,
+            "expiration": null,
+            "fullEveningPhone": null,
+            "fullDaytimePhone": "092-7780200",
+            "correctionResult": null,
+            "twoLineAddress": "中央区天神2-5-19,\n福岡市, 福岡県, 810-0001",
+            "addressVerified": false,
+            "primaryAddress": false
+          },
+          "urlKey": null,
+          "directionsUrl": null,
+          "storeImageUrl": "http://rtlimages.apple.com/cmc/dieter/store/4_3/R048.png?resize=828:*&output-format=jpg",
+          "makeReservationUrl": "http://www.apple.com/jp/retail/fukuoka",
+          "hoursAndInfoUrl": "http://www.apple.com/jp/retail/fukuoka",
+          "storeHours": [
+            {
+              "storeDays": "月~日",
+              "voStoreDays": null,
+              "storeTimings": "10:00~21:00"
+            }
+          ],
+          "storeHolidays": [
+            {
+              "date": "Sep 5",
+              "description": "Fire Alarm",
+              "hours": "10:00~20:00",
+              "comments": null,
+              "closed": false
+            },
+            {
+              "date": "Sep 6",
+              "description": "Fire Alarm",
+              "hours": "10:00~20:00",
+              "comments": null,
+              "closed": false
+            },
+            {
+              "date": "Sep 7",
+              "description": "Fire Alarm",
+              "hours": "10:00~20:00",
+              "comments": null,
+              "closed": false
+            },
+            {
+              "date": "Sep 8",
+              "description": "Fire Alarm",
+              "hours": "10:00~20:00",
+              "comments": null,
+              "closed": false
+            },
+            {
+              "date": "Sep 9",
+              "description": "Fire Alarm",
+              "hours": "10:00~20:00",
+              "comments": null,
+              "closed": false
+            },
+            {
+              "date": "Sep 10",
+              "description": "Fire Alarm",
+              "hours": "10:00~20:00",
+              "comments": null,
+              "closed": false
+            },
+            {
+              "date": "Sep 11",
+              "description": "Fire Alarm",
+              "hours": "10:00~20:00",
+              "comments": null,
+              "closed": false
+            },
+            {
+              "date": "Sep 12",
+              "description": "Fire Alarm",
+              "hours": "10:00~20:00",
+              "comments": null,
+              "closed": false
+            }
+          ],
+          "secureStoreImageUrl": "https://rtlimages.apple.com/cmc/dieter/store/4_3/R048.png?resize=828:*&output-format=jpg",
+          "distance": 887.04,
+          "distanceUnit": "km",
+          "distanceWithUnit": "887.04 km",
+          "timezone": "Asia/Tokyo",
+          "storeIsActive": true,
+          "lastUpdated": 0,
+          "lastFetched": 1630811225451,
+          "dateStamp": "05-Sep-2021",
+          "distanceSeparator": ".",
+          "nextAvailableDate": null,
+          "storeHolidayLookAheadWindow": 7,
+          "driveDistanceWithUnit": null,
+          "driveDistanceInMeters": null,
+          "dynamicAttributes": {},
+          "storePickupMethodByType": {
+            "INSTORE": {
+              "services": [
+                "APU"
+              ],
+              "typeCoordinate": {
+                "lat": 33.587908,
+                "lon": 130.397033
+              },
+              "typeDirection": {
+                "directionByLocale": null
+              },
+              "typeMeetupLocation": {
+                "meetingLocationByLocale": null
+              },
+              "type": "INSTORE"
+            }
+          },
+          "storeTimings": null,
+          "availableNow": true
+        },
+        "storelistnumber": 10,
+        "storeListNumber": 10,
+        "pickupOptionsDetails": {
+          "whatToExpectAtPickup": "<span class=\"as-pickupmethods-intro-header\">お受け取りの際に&nbsp;</span><br />商品のお受け取りの準備が整い次第、詳しい手順をメールでお知らせします。新しいデバイスのセットアップをご希望の場合は、Appleのスペシャリストとのオンラインパーソナルセッションを無料で予約することができます。",
+          "comparePickupOptionsLink": "<a href=\"https://www.apple.com/jp/shop/shipping-pickup\" data-feature-name=\"Astro Link\" data-display-name=\"AOS: shop/shipping-pickup\" target=\"_blank\">配送と受け取りについて<br />さらに詳しく<span class=\"icon icon-after icon-chevronright\"></span><span class=\"visuallyhidden\">（新しいウインドウで開きます）</span></a>",
+          "pickupOptions": [
+            {
+              "pickupOptionTitle": "店内",
+              "pickupOptionDescription": "オンラインで注文した商品を受け取れます。セットアップについてのサポートを受けたり、アクセサリを購入することができます。検温とマスクの着用をお願いする場合があります。",
+              "index": 1
+            }
+          ]
+        },
+        "rank": 10
+      }
+    ],
+    "overlayInitiatedFromWarmStart": false,
+    "viewMoreHoursLinkText": "ほかの営業時間も表示する",
+    "storesCount": "100-0001の近くに10件のストアが見つかりました",
+    "little": false,
+    "location": "100-0001",
+    "notAvailableNearby": "お近くの[X]店舗のストアには、本日在庫がありません。",
+    "notAvailableNearOneStore": "お近くのストアには本日在庫がありません。",
+    "warmDudeWithAPU": false,
+    "viewMoreHoursVoText": "（新規ウインドウで開きます）",
+    "availability": {
+      "isComingSoon": false
+    },
+    "viewDetailsText": "詳細を見る"
+  }
+}

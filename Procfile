@@ -1,0 +1,1 @@
+worker: java -jar build/libs/stock-monitor-0.0.1-SNAPSHOT.jar
