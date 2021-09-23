@@ -1,8 +1,6 @@
 package com.higo1974j.stock.monitor;
 
 
-import java.io.File;
-import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.net.URISyntaxException;
@@ -33,8 +31,7 @@ public class MonitorExecutor {
 
   public void init() throws IOException, URISyntaxException {
     prop = new Properties();
-    File file =  new File(this.getClass().getResource("/stock-monitor.properties").toURI());
-    try (InputStreamReader ir = new InputStreamReader(new FileInputStream(file), StandardCharsets.UTF_8)) {
+    try (InputStreamReader ir = new InputStreamReader(this.getClass().getResourceAsStream("/stock-monitor.properties"), StandardCharsets.UTF_8)) {
       prop.load(ir);
     } 
     messenger = ProwlMessenger.createIstance(prop.getProperty("prowl.api.key"));
@@ -53,8 +50,8 @@ public class MonitorExecutor {
     twitterMessenger.init(tProp);
     
     monitor = new AppleStoreStockMonitor();
-    monitor.loadParts(new File(this.getClass().getResource("/apple-part.properties").toURI()).getAbsolutePath());
-    monitor.loadStores(new File(this.getClass().getResource("/apple-store.properties").toURI()).getAbsolutePath());
+    monitor.loadParts(this.getClass().getResourceAsStream("/apple-part.properties"));
+    monitor.loadStores(this.getClass().getResourceAsStream("/apple-store.properties"));
     
   }
 

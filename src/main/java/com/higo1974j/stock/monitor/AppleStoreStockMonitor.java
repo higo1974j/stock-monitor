@@ -1,7 +1,7 @@
 package com.higo1974j.stock.monitor;
 
-import java.io.FileInputStream;
 import java.io.IOException;
+import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.net.URLEncoder;
 import java.nio.charset.StandardCharsets;
@@ -41,9 +41,9 @@ public class AppleStoreStockMonitor {
     httpUtil = new HttpUtil(null);
   }
   //MGMH3J/A=GO,512
-  public void loadParts(String fileName) throws IOException {
+  public void loadParts(InputStream is) throws IOException {
     Properties prop = new Properties();
-    try (InputStreamReader ir = new InputStreamReader(new FileInputStream(fileName), StandardCharsets.UTF_8)) {
+    try (InputStreamReader ir = new InputStreamReader(is, StandardCharsets.UTF_8)) {
       prop.load(ir);
     }
     for (String key : prop.stringPropertyNames()) {
@@ -58,9 +58,9 @@ public class AppleStoreStockMonitor {
   }
 
   //R150=仙台
-  public void loadStores(String fileName) throws IOException {
+  public void loadStores(InputStream is) throws IOException {
     Properties prop = new Properties();
-    try (InputStreamReader ir = new InputStreamReader(new FileInputStream(fileName), StandardCharsets.UTF_8)) {
+    try (InputStreamReader ir = new InputStreamReader(is, StandardCharsets.UTF_8)) {
       prop.load(ir);
     }
     for(String key : prop.stringPropertyNames()) {

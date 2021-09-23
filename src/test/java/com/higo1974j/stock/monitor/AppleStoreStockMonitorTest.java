@@ -1,6 +1,5 @@
 package com.higo1974j.stock.monitor;
 
-import java.io.File;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Map;
@@ -21,8 +20,8 @@ public class AppleStoreStockMonitorTest {
   @BeforeAll
   public static void init() throws Exception {
     try {
-      target.loadParts(new File(AppleStoreStockMonitorTest.class.getResource("/apple-part.properties").toURI()).getAbsolutePath());
-      target.loadStores(new File(AppleStoreStockMonitorTest.class.getResource("/apple-store.properties").toURI()).getAbsolutePath());
+      target.loadParts(AppleStoreStockMonitorTest.class.getResourceAsStream("/apple-part.properties"));
+      target.loadStores(AppleStoreStockMonitorTest.class.getResourceAsStream("/apple-store.properties"));
     } catch (Exception ex) {
       log.error("error", ex);
       throw ex;
