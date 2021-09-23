@@ -1,0 +1,42 @@
+plugins {
+    id 'java'
+    id 'com.github.johnrengelman.shadow' version '7.0.0'
+}
+
+group = 'com.higo1974j'
+version = '0.0.1-SNAPSHOT'
+sourceCompatibility = '11'
+
+repositories {
+    mavenCentral()
+}
+
+shadowJar {
+    manifest {
+        attributes 'Main-Class': 'com.higo1974j.stock.monitor.MonitorExecutor'
+    }
+}
+
+task stage {
+  dependsOn clean,shadowJar 
+}
+
+dependencies {
+  implementation group: 'org.apache.httpcomponents', name: 'httpclient', version: '4.5.3'
+  implementation group: 'org.jsoup', name: 'jsoup', version: '1.13.1'
+  implementation group: 'org.twitter4j', name: 'twitter4j-core', version: '4.0.7'
+  implementation group: 'org.apache.httpcomponents.client5', name: 'httpclient5', version: '5.1'
+  implementation group: 'org.apache.commons', name: 'commons-lang3', version: '3.12.0'
+  implementation group: 'net.arnx', name: 'jsonic', version: '1.3.10'
+  implementation group: 'org.slf4j', name: 'slf4j-api', version: '1.7.32'
+  implementation group: 'org.apache.logging.log4j', name: 'log4j-core', version: '2.14.1'
+  implementation group: 'org.apache.logging.log4j', name: 'log4j-slf4j-impl', version: '2.14.1'
+  testImplementation group: 'org.junit.jupiter', name: 'junit-jupiter-api', version: '5.7.2'
+  testImplementation group: 'org.junit.jupiter', name: 'junit-jupiter-engine', version: '5.7.2'
+  testImplementation group: 'org.assertj', name: 'assertj-core', version: '3.20.2'
+  testImplementation group: 'org.mockito', name: 'mockito-core', version: '3.12.4'
+  compileOnly 'org.projectlombok:lombok:1.18.20'
+  annotationProcessor 'org.projectlombok:lombok:1.18.20'
+  testCompileOnly 'org.projectlombok:lombok:1.18.20'
+  testAnnotationProcessor 'org.projectlombok:lombok:1.18.20'
+}
