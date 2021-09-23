@@ -33,21 +33,26 @@ public class MonitorExecutor {
     prop = new Properties();
     try (InputStreamReader ir = new InputStreamReader(this.getClass().getResourceAsStream("/stock-monitor.properties"), StandardCharsets.UTF_8)) {
       prop.load(ir);
-    } 
-    messenger = ProwlMessenger.createIstance(prop.getProperty("prowl.api.key"));
-    messenger.setApplicationName("Stock monitor");
-    twitterMessenger = new TwitterMessenger();
-    Properties tProp = new Properties();
-    
-  
-    String prefix = "twitter.one.";
-    for (String key : prop.stringPropertyNames()) {
-      if (key.startsWith(prefix)) {
-        String newKey = key.substring(prefix.length());
-        tProp.put(newKey, prop.get(key));
-      }
     }
-    twitterMessenger.init(tProp);
+    boolean useProwl = Boolean.parseBoolean(prop.getProperty("prowl.use"));
+    if (useProwl) {
+      messenger = ProwlMessenger.createIstance(prop.getProperty("prowl.api.key"));
+      messenger.setApplicationName("Stock monitor");
+    }
+    
+    boolean useTwitter = Boolean.parseBoolean(prop.getProperty("twitter.use"));
+    if (useTwitter) {
+      twitterMessenger = new TwitterMessenger();
+      Properties tProp = new Properties();
+      String prefix = "twitter.one.";
+      for (String key : prop.stringPropertyNames()) {
+        if (key.startsWith(prefix)) {
+          String newKey = key.substring(prefix.length());
+          tProp.put(newKey, prop.get(key));
+        }
+      }
+      twitterMessenger.init(tProp);
+    }
     
     monitor = new AppleStoreStockMonitor();
     monitor.loadParts(this.getClass().getResourceAsStream("/apple-part.properties"));
@@ -98,6 +103,9 @@ public class MonitorExecutor {
     }
   }
   private void sendProwl(List<String> stockInfos) throws IOException {
+    if (messenger == null) {
+      return;
+    }
     String dateStr = nowStr();
     StringBuilder message = new StringBuilder();
     for (String stockInfo : stockInfos) {
@@ -107,6 +115,9 @@ public class MonitorExecutor {
   }
 
   private void sendTwitter(List<String> stockInfos) throws IOException {
+    if (twitterMessenger == null) {
+      return;
+    }
     String dateStr = nowStr();
     StringBuilder twiBuilder = new StringBuilder();
     int length = 0;
