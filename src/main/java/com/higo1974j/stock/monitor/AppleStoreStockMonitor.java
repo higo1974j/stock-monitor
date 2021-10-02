@@ -10,8 +10,8 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Date;
 import java.util.HashMap;
-import java.util.HashSet;
 import java.util.LinkedHashMap;
+import java.util.LinkedHashSet;
 import java.util.List;
 import java.util.Map;
 import java.util.Properties;
@@ -36,17 +36,17 @@ public class AppleStoreStockMonitor {
 
   private Map<String, Set<String>> preMap = new HashMap<>();
   private HttpUtil httpUtil;
- 
+
   public AppleStoreStockMonitor() {
     httpUtil = new HttpUtil(null);
   }
   //MGMH3J/A=GO,512
   public void loadParts(InputStream is) throws IOException {
-    Properties prop = new Properties();
+    LinkedKeyProperties prop = new LinkedKeyProperties();
     try (InputStreamReader ir = new InputStreamReader(is, StandardCharsets.UTF_8)) {
       prop.load(ir);
     }
-    for (String key : prop.stringPropertyNames()) {
+    for (String key : prop.linkedKeys()) {
       String value = prop.getProperty(key);
       if (value.isEmpty()) {
         continue;
@@ -59,11 +59,11 @@ public class AppleStoreStockMonitor {
 
   //R150=仙台
   public void loadStores(InputStream is) throws IOException {
-    Properties prop = new Properties();
+    LinkedKeyProperties prop = new LinkedKeyProperties();
     try (InputStreamReader ir = new InputStreamReader(is, StandardCharsets.UTF_8)) {
       prop.load(ir);
     }
-    for(String key : prop.stringPropertyNames()) {
+    for (String key : prop.linkedKeys()) {
       storeMap.put(key, StoreInfo.builder().no(key).name(prop.getProperty(key)).build());;
     }
     log.info("loadStores DONE={}", storeMap);
@@ -137,7 +137,7 @@ public class AppleStoreStockMonitor {
         if (pickupDisplay != null
             && pickupDisplay.equalsIgnoreCase("available")) {
           if (!nowMap.containsKey(storeNumber)) {
-            nowMap.put(storeNumber, new HashSet<String>());
+            nowMap.put(storeNumber, new LinkedHashSet<String>());
           }
           String partNo = entry.getKey();
           nowMap.get(storeNumber).add(partNo);
@@ -180,13 +180,32 @@ public class AppleStoreStockMonitor {
         colorMap.get(partInfo.getColor()).add(partInfo.getSize());
       }
       for (String color : colorMap.keySet()) {
-        builder.append("  ").append(color).append("  ");
-        List<String> sizeList = colorMap.get(color);
-        sizeList.sort((a, b) -> Integer.parseInt(a) - Integer.parseInt(b));
-        builder.append(sizeList.stream().collect(Collectors.joining(",")));
+        builder.
+          append("  ").append(color).
+          append("  ").append(colorMap.get(color).stream().collect(Collectors.joining(",")));
       }
       msgList.add(builder.toString());
     }
     return msgList;
+  }
+
+
+  private static class LinkedKeyProperties extends Properties {
+    
+    private static final long serialVersionUID = -1615205157276327387L;
+
+    private final List<String> keys = new ArrayList<>();
+
+    public LinkedKeyProperties() {
+    }
+
+    public List<String> linkedKeys() {
+      return keys;
+    }
+
+    public Object put(Object key, Object value) {
+      keys.add(key.toString());
+      return super.put(key, value);
+    }
   }
 }
