@@ -10,8 +10,8 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Date;
 import java.util.HashMap;
-import java.util.HashSet;
 import java.util.LinkedHashMap;
+import java.util.LinkedHashSet;
 import java.util.List;
 import java.util.Map;
 import java.util.Properties;
@@ -36,7 +36,7 @@ public class AppleStoreStockMonitor {
 
   private Map<String, Set<String>> preMap = new HashMap<>();
   private HttpUtil httpUtil;
- 
+
   public AppleStoreStockMonitor() {
     httpUtil = new HttpUtil(null);
   }
@@ -137,7 +137,7 @@ public class AppleStoreStockMonitor {
         if (pickupDisplay != null
             && pickupDisplay.equalsIgnoreCase("available")) {
           if (!nowMap.containsKey(storeNumber)) {
-            nowMap.put(storeNumber, new HashSet<String>());
+            nowMap.put(storeNumber, new LinkedHashSet<String>());
           }
           String partNo = entry.getKey();
           nowMap.get(storeNumber).add(partNo);
@@ -180,10 +180,9 @@ public class AppleStoreStockMonitor {
         colorMap.get(partInfo.getColor()).add(partInfo.getSize());
       }
       for (String color : colorMap.keySet()) {
-        builder.append("  ").append(color).append("  ");
-        List<String> sizeList = colorMap.get(color);
-        sizeList.sort((a, b) -> Integer.parseInt(a) - Integer.parseInt(b));
-        builder.append(sizeList.stream().collect(Collectors.joining(",")));
+        builder.
+          append("  ").append(color).
+          append("  ").append(colorMap.get(color).stream().collect(Collectors.joining(",")));
       }
       msgList.add(builder.toString());
     }
