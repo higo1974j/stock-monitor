@@ -48,14 +48,13 @@ public class AppleStoreStockMonitor {
     }
     for (String key : prop.linkedKeys()) {
       String value = prop.getProperty(key);
-      log.info(value);
       if (value.isEmpty()) {
         continue;
       }
       String[] valueArray = value.split(",", -1);
       partMap.put(key, PartInfo.builder().no(key).color(valueArray[0]).size(valueArray[1]).build());
     }
-    log.info("loadParts DONE={}", partMap.keySet());
+    log.info("loadParts DONE={}", partMap);
   }
 
   //R150=仙台
@@ -67,7 +66,7 @@ public class AppleStoreStockMonitor {
     for (String key : prop.linkedKeys()) {
       storeMap.put(key, StoreInfo.builder().no(key).name(prop.getProperty(key)).build());;
     }
-    log.info("loadStores DONE={}", storeMap.keySet());
+    log.info("loadStores DONE={}", storeMap);
   }
 
   public List<String> getStockInfo() throws IOException {
