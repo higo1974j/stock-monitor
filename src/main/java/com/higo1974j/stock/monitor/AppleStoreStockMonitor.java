@@ -42,31 +42,32 @@ public class AppleStoreStockMonitor {
   }
   //MGMH3J/A=GO,512
   public void loadParts(InputStream is) throws IOException {
-    Properties prop = new Properties();
+    LinkedKeyProperties prop = new LinkedKeyProperties();
     try (InputStreamReader ir = new InputStreamReader(is, StandardCharsets.UTF_8)) {
       prop.load(ir);
     }
-    for (String key : prop.stringPropertyNames()) {
+    for (String key : prop.linkedKeys()) {
       String value = prop.getProperty(key);
+      log.info(value);
       if (value.isEmpty()) {
         continue;
       }
       String[] valueArray = value.split(",", -1);
       partMap.put(key, PartInfo.builder().no(key).color(valueArray[0]).size(valueArray[1]).build());
     }
-    log.info("loadParts DONE={}", partMap);
+    log.info("loadParts DONE={}", partMap.keySet());
   }
 
   //R150=仙台
   public void loadStores(InputStream is) throws IOException {
-    Properties prop = new Properties();
+    LinkedKeyProperties prop = new LinkedKeyProperties();
     try (InputStreamReader ir = new InputStreamReader(is, StandardCharsets.UTF_8)) {
       prop.load(ir);
     }
-    for(String key : prop.stringPropertyNames()) {
+    for (String key : prop.linkedKeys()) {
       storeMap.put(key, StoreInfo.builder().no(key).name(prop.getProperty(key)).build());;
     }
-    log.info("loadStores DONE={}", storeMap);
+    log.info("loadStores DONE={}", storeMap.keySet());
   }
 
   public List<String> getStockInfo() throws IOException {
@@ -187,5 +188,25 @@ public class AppleStoreStockMonitor {
       msgList.add(builder.toString());
     }
     return msgList;
+  }
+
+
+  private static class LinkedKeyProperties extends Properties {
+    
+    private static final long serialVersionUID = -1615205157276327387L;
+
+    private final List<String> keys = new ArrayList<>();
+
+    public LinkedKeyProperties() {
+    }
+
+    public List<String> linkedKeys() {
+      return keys;
+    }
+
+    public Object put(Object key, Object value) {
+      keys.add(key.toString());
+      return super.put(key, value);
+    }
   }
 }
