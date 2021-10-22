@@ -38,7 +38,7 @@ public class AppleStoreStockMonitor {
   private HttpUtil httpUtil;
 
   public AppleStoreStockMonitor() {
-    httpUtil = new HttpUtil(null);
+    httpUtil = new HttpUtil();
   }
   //MGMH3J/A=GO,512
   public void loadParts(InputStream is) throws IOException {
@@ -109,6 +109,11 @@ public class AppleStoreStockMonitor {
   }
 
   protected Map<String, Set<String>> analyzePickupJson(String json) {
+
+    if (json == null || json.isEmpty()) {
+      return Collections.emptyMap();
+    }
+
     Map<String, Object> stockInfo = null;
     try {
       stockInfo = JSON.decode(json);
@@ -181,8 +186,8 @@ public class AppleStoreStockMonitor {
       }
       for (String color : colorMap.keySet()) {
         builder.
-          append("  ").append(color).
-          append("  ").append(colorMap.get(color).stream().collect(Collectors.joining(",")));
+        append("  ").append(color).
+        append("  ").append(colorMap.get(color).stream().collect(Collectors.joining(",")));
       }
       msgList.add(builder.toString());
     }
@@ -191,7 +196,7 @@ public class AppleStoreStockMonitor {
 
 
   private static class LinkedKeyProperties extends Properties {
-    
+
     private static final long serialVersionUID = -1615205157276327387L;
 
     private final List<String> keys = new ArrayList<>();

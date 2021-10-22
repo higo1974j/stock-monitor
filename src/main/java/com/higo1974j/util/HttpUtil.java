@@ -32,8 +32,6 @@ public class HttpUtil {
 
   private static final Charset UTF8 = Charset.forName("UTF-8");
 
-  private final HttpStatusHandler statusHandler;
-
   private PoolingHttpClientConnectionManager poolingManager;
 
   public void init() {
@@ -69,9 +67,8 @@ public class HttpUtil {
           log.info("code={}, url={}", response.getCode() + " " + response.getReasonPhrase(), url);
         }
         if (response.getCode() == HttpStatus.SC_SERVICE_UNAVAILABLE) {
-          String message = "amazon session is invalid. system exit now";
+          String message = "Service is unavailable";
           log.error(message);
-          statusHandler.handleSerivceUnavailable();
         }
         return httpResponse; 
       }
@@ -86,7 +83,7 @@ public class HttpUtil {
       userAgent = cookieStore.getUserAgent();
     }
     return get(url, cookieStore, headerMap, userAgent);
-    
+
   }
 
 
@@ -130,9 +127,8 @@ public class HttpUtil {
           log.info("code={}, url={}", response.getCode() + " " + response.getReasonPhrase(), url);
         }
         if (response.getCode() == HttpStatus.SC_SERVICE_UNAVAILABLE) {
-          String message = "amazon session is invalid. system exit now";
+          String message = "Service is unavailable";
           log.error(message);
-          statusHandler.handleSerivceUnavailable();
         }
         return httpResponse; 
       }
@@ -143,8 +139,6 @@ public class HttpUtil {
     return post(url, cookieStore, headerMap, paramMap, DEFAULT_USER_AGENT);
   }
 
-
-
   private CloseableHttpClient getHttpClient(String userAgent){
     return HttpClients.custom()
         .setUserAgent(userAgent)
@@ -152,7 +146,6 @@ public class HttpUtil {
         .setConnectionManager(poolingManager)
         .build();
   }
-
 
   @Data
   public static class HttpResponse {
