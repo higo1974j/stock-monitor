@@ -16,8 +16,10 @@ import org.apache.hc.client5.http.impl.classic.HttpClients;
 import org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager;
 import org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManagerBuilder;
 import org.apache.hc.client5.http.protocol.HttpClientContext;
+import org.apache.hc.core5.http.ContentType;
 import org.apache.hc.core5.http.HttpStatus;
 import org.apache.hc.core5.http.NameValuePair;
+import org.apache.hc.core5.http.io.entity.StringEntity;
 import org.apache.hc.core5.http.message.BasicNameValuePair;
 import org.apache.hc.core5.util.TimeValue;
 import lombok.Data;
@@ -96,6 +98,10 @@ public class HttpUtil {
   }
 
   public HttpResponse post(String url, CookieStore cookieStore, Map<String, String> headerMap, Map<String, String> paramMap, String userAgent) throws IOException {
+    return post(url, cookieStore, headerMap, paramMap, userAgent, null);
+  }
+
+  public HttpResponse post(String url, CookieStore cookieStore, Map<String, String> headerMap, Map<String, String> paramMap, String userAgent, String body) throws IOException {
 
     HttpClientContext context = HttpClientContext.create();
     if (cookieStore != null) {
@@ -118,6 +124,11 @@ public class HttpUtil {
         }
         httpPost.setEntity(new UrlEncodedFormEntity(params));
       }
+      
+      if (body != null && !body.isEmpty()) {
+        httpPost.setEntity(new StringEntity(body, ContentType.APPLICATION_JSON));
+      }
+      
       try (CloseableHttpResponse response = httpclient.execute(httpPost, context)) {
         HttpResponse httpResponse = new HttpResponse();
         httpResponse.setRaw(response.getEntity().getContent().readAllBytes());
