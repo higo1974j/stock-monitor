@@ -2,8 +2,8 @@
 Monitor the inventory of products in the online store.
 
 ## Current status
-Support for Apple Online Store Japan
-Supoort for ahamo.com
+- Support for Apple Online Store Japan
+- Support for ahamo.com
 
 ## How to run this program
 - Add the products you want to monitor. Modifiy src/main/resources/apple-part.properties
