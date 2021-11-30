@@ -122,21 +122,20 @@ public class AhamoStoreMonitor {
           String itemCode = itemInfo.get("itemCode");
           String saleStockFlag = itemInfo.get("saleStockFlag");
 
-          if (saleStockFlag != null  && saleStockFlag.equals("1")) {
+          if (saleStockFlag != null  && !saleStockFlag.equals("3")) {
             if (!nowMap.containsKey(storeNumber)) {
               nowMap.put(storeNumber, new LinkedHashSet<String>());
             }
             nowMap.get(storeNumber).add(itemCode);
-            //log.info("{}", itemInfo) ;
           }
         }
       }
-
-
     } catch (RuntimeException ex) {
       log.error("json parse error", ex);
       return Collections.emptyMap();
     }
+    log.info("json={}", json);
+    log.info("map={}", nowMap);
     return nowMap;
   }
 
