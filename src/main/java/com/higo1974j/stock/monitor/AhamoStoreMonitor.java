@@ -134,8 +134,6 @@ public class AhamoStoreMonitor {
       log.error("json parse error", ex);
       return Collections.emptyMap();
     }
-    log.info("json={}", json);
-    log.info("map={}", nowMap);
     return nowMap;
   }
 
